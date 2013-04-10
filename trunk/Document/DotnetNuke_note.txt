@@ -2,6 +2,3 @@ Environment:
  + IIS
  + SQL Server 2005 express
  + Visual Studio 2010
- 
-https://code.google.com/p/thuc-tap-cong-nhan-dotnetnuke/
-na8yR6UZ9ez6
