@@ -1,4 +1,15 @@
-Environment:
- + IIS
- + SQL Server 2005
- + Visual Studio 2010
+﻿1. Cài đặt TortoiseSVN tại website: http://tortoisesvn.net/downloads.html
+	1.1 Hướng dẫn sử dụng SVN: chú ý phần checkout, update, commit, diff.
+		+ http://www.youtube.com/watch?v=hBPXDnL3Mkc
+		+ http://www.igorexchange.com/node/87
+		+ hỏi Trung để biết thêm cách dùng :)
+	1.2 Check out source code to: D:\thuc-tap-cong-nhan-dotnetnuke
+		+ Username và pass đã được gửi trong Google mail, check mail để xem.
+		+ Link SVN: http://thuc-tap-cong-nhan-dotnetnuke.googlecode.com/svn
+		+ Sau khi check out ta được file dự án: d:\thuc-tap-cong-nhan-dotnetnuke\trunk\dotnetnuke-website.sln
+2. Cài đặt IIS, Visual Studio 2010, SQL Server 2005/2008
+	+ Cài đặt 2 file DotNetNuke_Community_06.02.07_StarterKit.vsi và DNNModule.vsix trong thư mục wiki
+3. Mở file dự án d:\thuc-tap-cong-nhan-dotnetnuke\trunk\dotnetnuke-website.sln và thử chạy debug.
+		
+username và pass đăng nhập vào .netnuke site.
+gobom abc123456
