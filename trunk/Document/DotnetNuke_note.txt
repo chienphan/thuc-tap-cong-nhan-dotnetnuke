@@ -1,4 +1,4 @@
 Environment:
  + IIS
- + SQL Server 2005 express
+ + SQL Server 2005
  + Visual Studio 2010
