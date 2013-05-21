@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\Groups\Bin\DotNetNuke.Modules.Groups.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\Groups\Bin\DotNetNuke.Modules.Groups.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\Groups\Bin\DotNetNuke.Modules.Groups.XML
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\Groups\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\Groups\obj\Debug\DotNetNuke.Modules.Groups.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\Groups\obj\Debug\DotNetNuke.Modules.Groups.pdb

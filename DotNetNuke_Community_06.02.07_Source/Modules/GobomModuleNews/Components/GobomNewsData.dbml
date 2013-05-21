@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="gobom" Class="GobomNewsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=GOBOM-PC;Initial Catalog=gobom;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="gobomConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.[gobom.Tag]" Member="gobom_Tags">
+    <Type Name="gobom_Tag">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TagName" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="gobom_New_gobom_Tag" Member="gobom_New" ThisKey="ID" OtherKey="IDTag" Type="gobom_New" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[gobom.News]" Member="gobom_News">
+    <Type Name="gobom_New">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IDTag" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Contents" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="ImageURL" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="DateCreate" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="DateModified" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Poster" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="gobom_New_gobom_Tag" Member="gobom_Tags" ThisKey="IDTag" OtherKey="ID" Type="gobom_Tag" />
+    </Type>
+  </Table>
+</Database>

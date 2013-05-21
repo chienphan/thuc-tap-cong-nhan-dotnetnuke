@@ -1,0 +1,9 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\MembershipProviders\AspNetMembershipProvider\bin\DotNetNuke.Provider.AspNetProvider.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\MembershipProviders\AspNetMembershipProvider\bin\DotNetNuke.Provider.AspNetProvider.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\MembershipProviders\AspNetMembershipProvider\bin\DotNetNuke.Provider.AspNetProvider.xml
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\MembershipProviders\AspNetMembershipProvider\bin\DotNetNuke.Membership.DataProvider.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\MembershipProviders\AspNetMembershipProvider\bin\DotNetNuke.Membership.DataProvider.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\MembershipProviders\AspNetMembershipProvider\bin\DotNetNuke.Membership.DataProvider.xml
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\MembershipProviders\AspNetMembershipProvider\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\MembershipProviders\AspNetMembershipProvider\obj\Debug\DotNetNuke.Provider.AspNetProvider.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\MembershipProviders\AspNetMembershipProvider\obj\Debug\DotNetNuke.Provider.AspNetProvider.pdb

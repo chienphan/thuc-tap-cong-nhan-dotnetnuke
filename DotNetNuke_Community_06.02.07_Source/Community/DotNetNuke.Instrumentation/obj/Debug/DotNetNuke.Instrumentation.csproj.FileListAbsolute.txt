@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Instrumentation\bin\DotNetNuke.Instrumentation.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Instrumentation\bin\DotNetNuke.Instrumentation.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Instrumentation\bin\DotNetNuke.Instrumentation.xml
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Instrumentation\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Instrumentation\obj\Debug\DotNetNuke.Instrumentation.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Instrumentation\obj\Debug\DotNetNuke.Instrumentation.pdb

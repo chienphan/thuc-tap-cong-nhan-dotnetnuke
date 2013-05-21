@@ -1,0 +1,304 @@
+2013-05-18 13:58:41,066 [gobom-PC][Thread:14][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-18 13:58:41,917 [gobom-PC][Thread:14][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-18 14:21:13,344 [gobom-PC][Thread:14][ERROR] DotNetNuke.UI.Modules.ModuleHost - Unexpected end of file looking for </asp:linkbutton> tag.
+System.Web.HttpParseException: Unexpected end of file looking for </asp:linkbutton> tag.
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateControlParser.HandlePostParse()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-18 14:21:22,106 [gobom-PC][Thread:20][ERROR] DotNetNuke.UI.Modules.ModuleHost - Unexpected end of file looking for </asp:linkbutton> tag.
+System.Web.HttpParseException: Unexpected end of file looking for </asp:linkbutton> tag.
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateControlParser.HandlePostParse()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-18 14:21:25,981 [gobom-PC][Thread:12][ERROR] DotNetNuke.UI.Modules.ModuleHost - Unexpected end of file looking for </asp:linkbutton> tag.
+System.Web.HttpParseException: Unexpected end of file looking for </asp:linkbutton> tag.
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateControlParser.HandlePostParse()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-18 14:22:32,188 [gobom-PC][Thread:12][ERROR] DotNetNuke.UI.Modules.ModuleHost - Unexpected end of file looking for </asp:linkbutton> tag.
+System.Web.HttpParseException: Unexpected end of file looking for </asp:linkbutton> tag.
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateControlParser.HandlePostParse()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-18 14:24:57,434 [gobom-PC][Thread:26][ERROR] DotNetNuke.UI.Modules.ModuleHost - Unexpected end of file looking for </asp:linkbutton> tag.
+System.Web.HttpParseException: Unexpected end of file looking for </asp:linkbutton> tag.
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateControlParser.HandlePostParse()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-18 14:25:27,282 [gobom-PC][Thread:20][ERROR] DotNetNuke.UI.Modules.ModuleHost - Unexpected end of file looking for </asp:linkbutton> tag.
+System.Web.HttpParseException: Unexpected end of file looking for </asp:linkbutton> tag.
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateControlParser.HandlePostParse()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-18 14:25:44,908 [gobom-PC][Thread:26][ERROR] DotNetNuke.UI.Modules.ModuleHost - Unexpected end of file looking for </asp:linkbutton> tag.
+System.Web.HttpParseException: Unexpected end of file looking for </asp:linkbutton> tag.
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateControlParser.HandlePostParse()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-18 14:27:08,523 [gobom-PC][Thread:9][ERROR] DotNetNuke.UI.Modules.ModuleHost - Unexpected end of file looking for </asp:linkbutton> tag.
+System.Web.HttpParseException: Unexpected end of file looking for </asp:linkbutton> tag.
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateControlParser.HandlePostParse()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-18 14:29:03,279 [gobom-PC][Thread:5][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-18 14:29:03,482 [gobom-PC][Thread:5][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-18 14:44:07,361 [gobom-PC][Thread:22][ERROR] DotNetNuke.UI.Modules.ModuleHost - Unexpected end of file looking for </asp:linkbutton> tag.
+System.Web.HttpParseException: Unexpected end of file looking for </asp:linkbutton> tag.
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateControlParser.HandlePostParse()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-18 14:47:50,071 [gobom-PC][Thread:27][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/Home.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-18 14:47:56,897 [gobom-PC][Thread:6][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/Home.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-18 14:50:32,860 [gobom-PC][Thread:26][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/Home.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-18 14:50:35,454 [gobom-PC][Thread:26][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/Home.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-18 14:50:40,503 [gobom-PC][Thread:26][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/Home.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-18 14:57:08,072 [gobom-PC][Thread:6][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/Home.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-18 14:58:30,328 [gobom-PC][Thread:42][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/Home.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-18 15:07:13,138 [gobom-PC][Thread:31][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-18 15:07:13,338 [gobom-PC][Thread:31][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-18 15:07:21,916 [gobom-PC][Thread:26][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\DNN_Gobom\ViewDemoGobom.ascx(16): error CS1501: No overload for method 'link1_Click' takes '1' arguments
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\DNN_Gobom\ViewDemoGobom.ascx(16): error CS1501: No overload for method 'link1_Click' takes '1' arguments
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270

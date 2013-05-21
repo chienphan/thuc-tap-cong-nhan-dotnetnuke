@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\MobileManagement\bin\DotNetNuke.Modules.MobileManagement.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\MobileManagement\bin\DotNetNuke.Modules.MobileManagement.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\MobileManagement\bin\DotNetNuke.Modules.MobileManagement.XML
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\MobileManagement\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\MobileManagement\obj\Debug\DotNetNuke.Modules.MobileManagement.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\MobileManagement\obj\Debug\DotNetNuke.Modules.MobileManagement.pdb

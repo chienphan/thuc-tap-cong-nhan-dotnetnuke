@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web\bin\DotNetNuke.Web.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web\bin\DotNetNuke.Web.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web\bin\DotNetNuke.Web.xml
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web\obj\Debug\DotNetNuke.Web.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web\obj\Debug\DotNetNuke.Web.pdb

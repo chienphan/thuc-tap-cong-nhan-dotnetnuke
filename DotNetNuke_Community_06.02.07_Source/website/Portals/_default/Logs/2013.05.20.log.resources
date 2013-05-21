@@ -1,0 +1,352 @@
+2013-05-20 21:53:33,842 [gobom-PC][Thread:13][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 168
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-20 21:53:34,443 [gobom-PC][Thread:13][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-20 22:40:25,434 [gobom-PC][Thread:9][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 168
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-20 22:40:25,667 [gobom-PC][Thread:9][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-20 23:19:56,154 [gobom-PC][Thread:10][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 168
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-20 23:19:56,456 [gobom-PC][Thread:10][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-20 23:20:10,312 [gobom-PC][Thread:10][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-20 23:20:15,618 [gobom-PC][Thread:5][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-20 23:21:27,272 [gobom-PC][Thread:13][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-20 23:22:03,174 [gobom-PC][Thread:13][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-20 23:22:19,652 [gobom-PC][Thread:13][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-20 23:22:43,837 [gobom-PC][Thread:5][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-20 23:22:49,558 [gobom-PC][Thread:12][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-20 23:22:57,161 [gobom-PC][Thread:12][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-20 23:24:36,828 [gobom-PC][Thread:29][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-20 23:26:17,208 [gobom-PC][Thread:26][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-20 23:26:22,812 [gobom-PC][Thread:26][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-20 23:28:19,452 [gobom-PC][Thread:28][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-20 23:28:28,943 [gobom-PC][Thread:28][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-20 23:30:19,518 [gobom-PC][Thread:26][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-20 23:30:32,514 [gobom-PC][Thread:21][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\GobomModuleNews\ViewGobomModuleNews.ascx(3): error CS1061: 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' does not contain a definition for 'lstContent_ItemDataBound' and no extension method 'lstContent_ItemDataBound' accepting a first argument of type 'ASP.desktopmodules_gobommodulenews_viewgobommodulenews_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-20 23:36:42,421 [gobom-PC][Thread:5][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.Components.NewsConst..ctor() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\NewsConst.cs:line 13
+   at GobomDNN.Modules.GobomModuleNews.Components.NewsConst.get_getInstance() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\NewsConst.cs:line 24
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 77
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-20 23:36:42,580 [gobom-PC][Thread:5][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.Components.NewsConst..ctor() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\NewsConst.cs:line 13
+   at GobomDNN.Modules.GobomModuleNews.Components.NewsConst.get_getInstance() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\NewsConst.cs:line 24
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 77
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-20 23:38:15,745 [gobom-PC][Thread:25][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.Components.NewsConst..ctor() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\NewsConst.cs:line 13
+   at GobomDNN.Modules.GobomModuleNews.Components.NewsConst.get_getInstance() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\NewsConst.cs:line 24
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 77
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-20 23:38:15,753 [gobom-PC][Thread:25][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.Components.NewsConst..ctor() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\NewsConst.cs:line 13
+   at GobomDNN.Modules.GobomModuleNews.Components.NewsConst.get_getInstance() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\NewsConst.cs:line 24
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 77
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-20 23:42:11,402 [gobom-PC][Thread:25][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.Components.NewsConst..ctor() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\NewsConst.cs:line 13
+   at GobomDNN.Modules.GobomModuleNews.Components.NewsConst.get_getInstance() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\NewsConst.cs:line 25
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 77
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-20 23:42:11,484 [gobom-PC][Thread:25][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.Components.NewsConst..ctor() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\NewsConst.cs:line 13
+   at GobomDNN.Modules.GobomModuleNews.Components.NewsConst.get_getInstance() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\NewsConst.cs:line 25
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 77
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

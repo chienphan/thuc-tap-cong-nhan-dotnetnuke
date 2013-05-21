@@ -1,0 +1,1018 @@
+2013-05-19 10:30:00,528 [gobom-PC][Thread:11][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 10:30:01,152 [gobom-PC][Thread:11][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 10:48:04,017 [gobom-PC][Thread:27][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/ModuleId/200/GettingStarted.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-19 11:00:31,816 [gobom-PC][Thread:6][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 11:00:32,016 [gobom-PC][Thread:6][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 11:01:41,098 [gobom-PC][Thread:5][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/ModuleId/450/ItemId/20/GettingStarted.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-19 11:01:45,557 [gobom-PC][Thread:6][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/ModuleId/450/ItemId/20/GettingStarted.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-19 11:01:54,930 [gobom-PC][Thread:5][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/ItemId/20/GettingStarted.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-19 11:18:19,218 [gobom-PC][Thread:20][ERROR] DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler+CoreScheduler - ReaderWriterLockStrategy.GetWriteLock timed out
+System.ApplicationException: ReaderWriterLockStrategy.GetWriteLock timed out
+   at DotNetNuke.Collections.Internal.ReaderWriterLockStrategy.GetWriteLock(TimeSpan timeout) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Collections\ReaderWriterLockStrategy.cs:line 75
+   at DotNetNuke.Collections.Internal.SharedList`1.GetWriteLock(TimeSpan timeOut) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Collections\SharedList.cs:line 232
+   at DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler.CoreScheduler.RemoveFromScheduleQueue(ScheduleItem scheduleItem) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SchedulingProviders\DNNScheduler\Scheduler.cs:line 686
+2013-05-19 11:31:35,833 [gobom-PC][Thread:11][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 11:31:36,144 [gobom-PC][Thread:11][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 12:03:55,827 [gobom-PC][Thread:9][ERROR] DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler+CoreScheduler - ReaderWriterLockStrategy.GetWriteLock timed out
+System.ApplicationException: ReaderWriterLockStrategy.GetWriteLock timed out
+   at DotNetNuke.Collections.Internal.ReaderWriterLockStrategy.GetWriteLock(TimeSpan timeout) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Collections\ReaderWriterLockStrategy.cs:line 75
+   at DotNetNuke.Collections.Internal.SharedList`1.GetWriteLock(TimeSpan timeOut) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Collections\SharedList.cs:line 232
+   at DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler.CoreScheduler.RemoveFromScheduleQueue(ScheduleItem scheduleItem) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SchedulingProviders\DNNScheduler\Scheduler.cs:line 686
+2013-05-19 12:04:27,500 [gobom-PC][Thread:9][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 168
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 12:04:27,624 [gobom-PC][Thread:9][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 12:06:35,449 [gobom-PC][Thread:20][ERROR] DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler+CoreScheduler - ReaderWriterLockStrategy.GetWriteLock timed out
+System.ApplicationException: ReaderWriterLockStrategy.GetWriteLock timed out
+   at DotNetNuke.Collections.Internal.ReaderWriterLockStrategy.GetWriteLock(TimeSpan timeout) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Collections\ReaderWriterLockStrategy.cs:line 75
+   at DotNetNuke.Collections.Internal.SharedList`1.GetWriteLock(TimeSpan timeOut) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Collections\SharedList.cs:line 232
+   at DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler.CoreScheduler.RemoveFromScheduleQueue(ScheduleItem scheduleItem) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SchedulingProviders\DNNScheduler\Scheduler.cs:line 686
+2013-05-19 12:06:36,487 [gobom-PC][Thread:20][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 168
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 12:06:36,526 [gobom-PC][Thread:20][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 12:06:47,481 [gobom-PC][Thread:25][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 168
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 12:06:47,669 [gobom-PC][Thread:25][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 12:07:50,783 [gobom-PC][Thread:11][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/Tint?c/Khoah?cvàCôngngh?/Default.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-19 12:22:53,872 [gobom-PC][Thread:6][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\DNN_Gobom\ViewDemoGobom.ascx(16): error CS1001: Identifier expected
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\DNN_Gobom\ViewDemoGobom.ascx(16): error CS1001: Identifier expected
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-19 12:22:54,290 [gobom-PC][Thread:6][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: Phan Ð?c Chi?n is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\DNN_Gobom\ViewDemoGobom.ascx(16): error CS1001: Identifier expected
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-19 12:40:11,390 [gobom-PC][Thread:32][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 168
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 12:40:11,547 [gobom-PC][Thread:32][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 12:48:03,574 [gobom-PC][Thread:VsCBMThreadPool][ERROR] DotNetNuke.Web.UI.Utilities - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.UI.Utilities.ApplySkin(Control telerikControl, String fallBackEmbeddedSkinName, String controlName, String webControlSkinSubFolderName) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web\UI\Utilities.cs:line 96
+2013-05-19 12:48:21,181 [gobom-PC][Thread:VsCBMThreadPool][ERROR] DotNetNuke.Web.UI.Utilities - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.UI.Utilities.ApplySkin(Control telerikControl, String fallBackEmbeddedSkinName, String controlName, String webControlSkinSubFolderName) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web\UI\Utilities.cs:line 96
+2013-05-19 15:06:05,898 [gobom-PC][Thread:30][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 168
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 15:06:06,154 [gobom-PC][Thread:30][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 15:36:37,319 [gobom-PC][Thread:39][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 168
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 15:36:37,529 [gobom-PC][Thread:39][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 16:02:50,757 [gobom-PC][Thread:11][ERROR] DotNetNuke.UI.Modules.ModuleHost - d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\DNN_Gobom\Add.ascx(17): error CS1061: 'ASP.desktopmodules_dnn_gobom_add_ascx' does not contain a definition for 'cmdUpdate_Click' and no extension method 'cmdUpdate_Click' accepting a first argument of type 'ASP.desktopmodules_dnn_gobom_add_ascx' could be found (are you missing a using directive or an assembly reference?)
+System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\DNN_Gobom\Add.ascx(17): error CS1061: 'ASP.desktopmodules_dnn_gobom_add_ascx' does not contain a definition for 'cmdUpdate_Click' and no extension method 'cmdUpdate_Click' accepting a first argument of type 'ASP.desktopmodules_dnn_gobom_add_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-19 16:02:50,941 [gobom-PC][Thread:11][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error:  is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException: d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\DNN_Gobom\Add.ascx(17): error CS1061: 'ASP.desktopmodules_dnn_gobom_add_ascx' does not contain a definition for 'cmdUpdate_Click' and no extension method 'cmdUpdate_Click' accepting a first argument of type 'ASP.desktopmodules_dnn_gobom_add_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-19 16:06:56,127 [gobom-PC][Thread:28][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 168
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 16:06:56,516 [gobom-PC][Thread:28][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 16:22:05,487 [gobom-PC][Thread:15][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 57
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:22:05,624 [gobom-PC][Thread:15][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 57
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:22:29,066 [gobom-PC][Thread:15][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 57
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:22:29,073 [gobom-PC][Thread:15][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 57
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:23:50,660 [gobom-PC][Thread:29][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 57
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:23:50,745 [gobom-PC][Thread:29][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 57
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:24:29,056 [gobom-PC][Thread:32][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 57
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:24:29,062 [gobom-PC][Thread:32][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 57
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:26:05,208 [gobom-PC][Thread:5][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 57
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:26:05,294 [gobom-PC][Thread:5][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 57
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:26:33,004 [gobom-PC][Thread:24][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 57
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:26:33,008 [gobom-PC][Thread:24][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 57
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:26:37,619 [gobom-PC][Thread:8][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 57
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:26:37,623 [gobom-PC][Thread:8][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 57
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:28:40,358 [gobom-PC][Thread:29][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 57
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:28:40,447 [gobom-PC][Thread:29][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 57
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:32:28,933 [gobom-PC][Thread:33][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:32:29,025 [gobom-PC][Thread:33][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:32:40,365 [gobom-PC][Thread:8][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:32:40,369 [gobom-PC][Thread:8][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:32:45,087 [gobom-PC][Thread:9][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:32:45,091 [gobom-PC][Thread:9][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:32:57,354 [gobom-PC][Thread:8][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:32:57,358 [gobom-PC][Thread:8][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:33:11,521 [gobom-PC][Thread:33][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:33:11,525 [gobom-PC][Thread:33][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:35:35,568 [gobom-PC][Thread:20][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:35:35,654 [gobom-PC][Thread:20][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:35:42,288 [gobom-PC][Thread:19][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:35:42,293 [gobom-PC][Thread:19][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:38:01,928 [gobom-PC][Thread:21][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 168
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 16:38:02,141 [gobom-PC][Thread:21][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-19 16:38:21,505 [gobom-PC][Thread:7][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at lambda_method(ExecutionScope )
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Data.Linq.CommonDataServices.GetKeyFromPredicate(MetaType type, Dictionary`2 keys, Expression mex, Expression vex)
+   at System.Data.Linq.CommonDataServices.GetKeysFromPredicate(MetaType type, Dictionary`2 keys, Expression expr)
+   at System.Data.Linq.CommonDataServices.GetKeyValues(MetaType type, LambdaExpression predicate)
+   at System.Data.Linq.CommonDataServices.GetCachedObject(Expression query)
+   at System.Data.Linq.SqlClient.SqlProvider.GetCachedResult(Expression query)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at System.Data.Linq.Provider.BindingList.Create[T](DataContext context, IEnumerable`1 sequence)
+   at System.Data.Linq.DataQuery`1.GetNewBindingList()
+   at System.Data.Linq.DataQuery`1.System.ComponentModel.IListSource.GetList()
+   at System.Web.UI.DataSourceHelper.GetResolvedDataSource(Object dataSource, String dataMember)
+   at System.Web.UI.WebControls.ReadOnlyDataSource.System.Web.UI.IDataSource.GetView(String viewName)
+   at System.Web.UI.WebControls.BaseDataList.ConnectToDataSourceView()
+   at System.Web.UI.WebControls.BaseDataList.GetData()
+   at System.Web.UI.WebControls.DataList.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 74
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-19 16:38:21,685 [gobom-PC][Thread:7][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=Exception+has+been+thrown+by+the+target+of+an+invocation.&content=0
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at lambda_method(ExecutionScope )
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Data.Linq.CommonDataServices.GetKeyFromPredicate(MetaType type, Dictionary`2 keys, Expression mex, Expression vex)
+   at System.Data.Linq.CommonDataServices.GetKeysFromPredicate(MetaType type, Dictionary`2 keys, Expression expr)
+   at System.Data.Linq.CommonDataServices.GetKeyValues(MetaType type, LambdaExpression predicate)
+   at System.Data.Linq.CommonDataServices.GetCachedObject(Expression query)
+   at System.Data.Linq.SqlClient.SqlProvider.GetCachedResult(Expression query)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at System.Data.Linq.Provider.BindingList.Create[T](DataContext context, IEnumerable`1 sequence)
+   at System.Data.Linq.DataQuery`1.GetNewBindingList()
+   at System.Data.Linq.DataQuery`1.System.ComponentModel.IListSource.GetList()
+   at System.Web.UI.DataSourceHelper.GetResolvedDataSource(Object dataSource, String dataMember)
+   at System.Web.UI.WebControls.ReadOnlyDataSource.System.Web.UI.IDataSource.GetView(String viewName)
+   at System.Web.UI.WebControls.BaseDataList.ConnectToDataSourceView()
+   at System.Web.UI.WebControls.BaseDataList.GetData()
+   at System.Web.UI.WebControls.DataList.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\ViewGobomModuleNews.ascx.cs:line 74
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

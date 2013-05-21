@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="GobomNews">
+  <DataContextMoniker Name="/GobomNewsDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e047c6ed-5576-44b0-8f92-f3f967319c5f" absoluteBounds="5.125, 3.5, 2, 1.0961531575520833">
+      <DataClassMoniker Name="/GobomNewsDataContext/gobom_Tag" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2934abc8-236b-4d65-b5f2-8abf87fee902" absoluteBounds="5.14, 3.96, 1.9700000000000002, 0.53615315755208326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1a56c3d8-8971-4793-8f1e-20e7b4c5536b" absoluteBounds="1.375, 3.375, 2, 2.0822371419270826">
+      <DataClassMoniker Name="/GobomNewsDataContext/gobom_New" />
+      <nestedChildShapes>
+        <elementListCompartment Id="18290fd1-78be-4bf8-adb0-0b60174582f0" absoluteBounds="1.3900000000000001, 3.835, 1.9700000000000002, 1.5222371419270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.375 : 4.04807657877604); (5.125 : 4.04807657877604)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/GobomNewsDataContext/gobom_New/gobom_New_gobom_Tag" />
+      <nodes>
+        <classShapeMoniker Id="1a56c3d8-8971-4793-8f1e-20e7b4c5536b" />
+        <classShapeMoniker Id="e047c6ed-5576-44b0-8f92-f3f967319c5f" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

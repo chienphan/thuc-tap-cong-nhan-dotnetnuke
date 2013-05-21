@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\MemberDirectory\bin\DotNetNuke.Modules.MemberDirectory.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\MemberDirectory\bin\DotNetNuke.Modules.MemberDirectory.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\MemberDirectory\bin\DotNetNuke.Modules.MemberDirectory.XML
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\MemberDirectory\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\MemberDirectory\obj\Debug\DotNetNuke.Modules.MemberDirectory.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\MemberDirectory\obj\Debug\DotNetNuke.Modules.MemberDirectory.pdb

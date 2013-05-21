@@ -1,0 +1,7 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\PreviewProfileManagement\bin\DotNetNuke.Modules.PreviewProfileManagement.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\PreviewProfileManagement\bin\DotNetNuke.Modules.PreviewProfileManagement.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\PreviewProfileManagement\bin\DotNetNuke.Modules.PreviewProfileManagement.XML
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\PreviewProfileManagement\bin\DotNetNuke.WebUtility.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\PreviewProfileManagement\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\PreviewProfileManagement\obj\Debug\DotNetNuke.Modules.PreviewProfileManagement.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\PreviewProfileManagement\obj\Debug\DotNetNuke.Modules.PreviewProfileManagement.pdb

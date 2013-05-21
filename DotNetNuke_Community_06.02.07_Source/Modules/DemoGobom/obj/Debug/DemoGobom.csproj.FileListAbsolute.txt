@@ -1,0 +1,5 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\bin\DNN.Modules.DemoGobom.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\bin\DNN.Modules.DemoGobom.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\obj\Debug\DNN.Modules.DemoGobom.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\obj\Debug\DNN.Modules.DemoGobom.pdb

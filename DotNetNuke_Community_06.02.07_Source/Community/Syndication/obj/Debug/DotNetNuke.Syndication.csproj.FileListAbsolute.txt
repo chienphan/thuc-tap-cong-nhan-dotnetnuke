@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Syndication\bin\DotNetNuke.Services.Syndication.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Syndication\bin\DotNetNuke.Services.Syndication.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Syndication\bin\DotNetNuke.Services.Syndication.XML
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Syndication\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Syndication\obj\Debug\DotNetNuke.Services.Syndication.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Syndication\obj\Debug\DotNetNuke.Services.Syndication.pdb

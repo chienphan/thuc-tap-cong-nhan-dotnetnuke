@@ -1,0 +1,154 @@
+2013-05-10 22:45:02,789 [gobom-PC][Thread:6][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Common\Globals.cs:line 563
+   at DotNetNuke.Common.Initialize.CheckVersion(HttpApplication app) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Common\Initialize.cs:line 116
+   at DotNetNuke.Common.Initialize.InitializeApp(HttpApplication app) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Common\Initialize.cs:line 181
+   at DotNetNuke.Common.Initialize.Init(HttpApplication app) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Common\Initialize.cs:line 275
+   at DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication.Application_BeginRequest(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web\Common\DotNetNukeHttpApplication.cs:line 161
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-10 22:45:37,448 [gobom-PC][Thread:5][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Common\Globals.cs:line 563
+   at DotNetNuke.Common.Initialize.CheckVersion(HttpApplication app) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Common\Initialize.cs:line 116
+   at DotNetNuke.Common.Initialize.InitializeApp(HttpApplication app) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Common\Initialize.cs:line 181
+   at DotNetNuke.Common.Initialize.Init(HttpApplication app) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Common\Initialize.cs:line 275
+   at DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication.Application_BeginRequest(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web\Common\DotNetNukeHttpApplication.cs:line 161
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-10 22:45:42,862 [gobom-PC][Thread:5][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Common\Globals.cs:line 563
+   at DotNetNuke.Common.Initialize.CheckVersion(HttpApplication app) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Common\Initialize.cs:line 116
+   at DotNetNuke.Common.Initialize.InitializeApp(HttpApplication app) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Common\Initialize.cs:line 181
+   at DotNetNuke.Common.Initialize.Init(HttpApplication app) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Common\Initialize.cs:line 275
+   at DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication.Application_BeginRequest(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web\Common\DotNetNukeHttpApplication.cs:line 161
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-10 22:45:55,528 [gobom-PC][Thread:6][ERROR] DotNetNuke.Common.Initialize - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Common\Globals.cs:line 563
+   at DotNetNuke.Services.Log.EventLog.LogController.AddLog(LogInfo logInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Log\EventLog\LogController.cs:line 176
+   at DotNetNuke.Common.Initialize.LogEnd() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Common\Initialize.cs:line 373
+2013-05-10 22:45:55,587 [gobom-PC][Thread:6][ERROR] DotNetNuke.Services.Exceptions.BasePortalException - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Exceptions.BasePortalException.InitializePrivateVariables() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\BasePortalException.cs:line 200
+2013-05-10 22:51:00,776 [gobom-PC][Thread:13][ERROR] DotNetNuke.Services.Upgrade.Upgrade - A dependent component is not installed - 
+2013-05-10 23:39:50,174 [gobom-PC][Thread:22][ERROR] DotNetNuke.Services.Installer.Installer - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.Installer.LogInstallEvent(String package, String eventType) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Installer\Installer.cs:line 246
+2013-05-10 23:39:50,702 [gobom-PC][Thread:22][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-10 23:39:50,796 [gobom-PC][Thread:22][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: gobom is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-10 23:39:52,058 [gobom-PC][Thread:31][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-10 23:39:52,076 [gobom-PC][Thread:31][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: gobom is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-10 23:40:49,544 [gobom-PC][Thread:22][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-10 23:40:49,692 [gobom-PC][Thread:22][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: gobom is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-10 23:41:41,440 [gobom-PC][Thread:15][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-10 23:41:41,453 [gobom-PC][Thread:15][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: gobom is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-10 23:42:12,353 [gobom-PC][Thread:20][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-10 23:42:12,365 [gobom-PC][Thread:20][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: gobom is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-10 23:42:20,833 [gobom-PC][Thread:20][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-10 23:42:20,849 [gobom-PC][Thread:20][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: gobom is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/YourCompany.gobom/Viewgobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-10 23:49:53,361 [gobom-PC][Thread:20][ERROR] DotNetNuke.Framework.Reflection - Could not load type 'YourCompany.Modules.gobom.gobomController'.
+System.Web.HttpException: Could not load type 'YourCompany.Modules.gobom.gobomController'.
+   at System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   at DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Framework\Reflection.cs:line 325

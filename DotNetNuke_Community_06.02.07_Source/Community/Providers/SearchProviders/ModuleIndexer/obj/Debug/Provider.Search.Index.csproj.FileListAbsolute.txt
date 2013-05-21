@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\bin\DotNetNuke.Search.Index.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\bin\DotNetNuke.Search.Index.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\bin\DotNetNuke.Search.Index.xml
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\obj\Debug\DotNetNuke.Search.Index.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\obj\Debug\DotNetNuke.Search.Index.pdb
