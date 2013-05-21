@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SitemapProviders\Provider.CoreSitemapProvider\bin\DotNetNuke.SitemapProviders.CoreSitemapProvider.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SitemapProviders\Provider.CoreSitemapProvider\bin\DotNetNuke.SitemapProviders.CoreSitemapProvider.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SitemapProviders\Provider.CoreSitemapProvider\bin\DotNetNuke.SitemapProviders.CoreSitemapProvider.xml
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SitemapProviders\Provider.CoreSitemapProvider\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SitemapProviders\Provider.CoreSitemapProvider\obj\Debug\DotNetNuke.SitemapProviders.CoreSitemapProvider.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SitemapProviders\Provider.CoreSitemapProvider\obj\Debug\DotNetNuke.SitemapProviders.CoreSitemapProvider.pdb

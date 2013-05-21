@@ -1,0 +1,5 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Externally Sourced\bin\Debug\Provider.RadEditor.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Externally Sourced\bin\Debug\Provider.RadEditor.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Externally Sourced\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Externally Sourced\obj\Debug\Provider.RadEditor.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Externally Sourced\obj\Debug\Provider.RadEditor.pdb

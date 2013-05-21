@@ -1,0 +1,1315 @@
+2013-05-11 00:12:13,956 [gobom-PC][Thread:15][ERROR] DotNetNuke.Services.Installer.Installer - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.Installer.LogInstallEvent(String package, String eventType) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Installer\Installer.cs:line 246
+2013-05-11 00:13:37,973 [gobom-PC][Thread:16][ERROR] DotNetNuke.Services.Installer.Installer - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.Installer.LogInstallEvent(String package, String eventType) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Installer\Installer.cs:line 246
+2013-05-11 00:13:53,357 [gobom-PC][Thread:31][ERROR] DotNetNuke.Services.Installer.Installer - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.Installer.LogInstallEvent(String package, String eventType) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Installer\Installer.cs:line 246
+2013-05-11 00:14:46,809 [gobom-PC][Thread:16][ERROR] DotNetNuke.UI.Modules.ModuleHost - It is an error to use a section registered as allowDefinition='MachineToApplication' beyond application level.  This error can be caused by a virtual directory not being configured as an application in IIS. (D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\desktopmodules\gobom\web.config line 25)
+System.Configuration.ConfigurationErrorsException: It is an error to use a section registered as allowDefinition='MachineToApplication' beyond application level.  This error can be caused by a virtual directory not being configured as an application in IIS. (D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\desktopmodules\gobom\web.config line 25)
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Web.Configuration.RuntimeConfig.GetSectionObject(String sectionName)
+   at System.Web.Configuration.RuntimeConfig.GetSection(String sectionName, Type type, ResultsIndex index)
+   at System.Web.Configuration.RuntimeConfig.get_Compilation()
+   at System.Web.Compilation.BuildProvidersCompiler..ctor(VirtualPath configPath, Boolean supportLocalization, String outputAssemblyName)
+   at System.Web.Compilation.CodeDirectoryCompiler.GetCodeDirectoryAssembly(VirtualPath virtualDir, CodeDirectoryType dirType, String assemblyName, StringSet excludedSubdirectories, Boolean isDirectoryAllowed)
+   at System.Web.Compilation.BuildManager.CompileCodeDirectory(VirtualPath virtualDir, CodeDirectoryType dirType, String assemblyName, StringSet excludedSubdirectories)
+   at System.Web.Compilation.BuildManager.EnsureFirstTimeDirectoryInit(VirtualPath virtualDir)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 00:14:46,917 [gobom-PC][Thread:16][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: gobom is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Configuration.ConfigurationErrorsException: It is an error to use a section registered as allowDefinition='MachineToApplication' beyond application level.  This error can be caused by a virtual directory not being configured as an application in IIS. (D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\desktopmodules\gobom\web.config line 25)
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Web.Configuration.RuntimeConfig.GetSectionObject(String sectionName)
+   at System.Web.Configuration.RuntimeConfig.GetSection(String sectionName, Type type, ResultsIndex index)
+   at System.Web.Configuration.RuntimeConfig.get_Compilation()
+   at System.Web.Compilation.BuildProvidersCompiler..ctor(VirtualPath configPath, Boolean supportLocalization, String outputAssemblyName)
+   at System.Web.Compilation.CodeDirectoryCompiler.GetCodeDirectoryAssembly(VirtualPath virtualDir, CodeDirectoryType dirType, String assemblyName, StringSet excludedSubdirectories, Boolean isDirectoryAllowed)
+   at System.Web.Compilation.BuildManager.CompileCodeDirectory(VirtualPath virtualDir, CodeDirectoryType dirType, String assemblyName, StringSet excludedSubdirectories)
+   at System.Web.Compilation.BuildManager.EnsureFirstTimeDirectoryInit(VirtualPath virtualDir)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 00:15:46,507 [gobom-PC][Thread:21][ERROR] DotNetNuke.UI.Modules.ModuleHost - 'YourCompany.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'.
+System.Web.HttpParseException: 'YourCompany.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpParseException: 'YourCompany.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpException: 'YourCompany.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 00:15:46,737 [gobom-PC][Thread:21][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: gobom is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpParseException: 'YourCompany.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpParseException: 'YourCompany.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpException: 'YourCompany.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 00:29:17,088 [gobom-PC][Thread:28][ERROR] DotNetNuke.UI.Modules.ModuleHost - 'YourCompany.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'.
+System.Web.HttpParseException: 'YourCompany.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpParseException: 'YourCompany.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpException: 'YourCompany.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 00:29:17,385 [gobom-PC][Thread:28][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: gobom is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpParseException: 'YourCompany.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpParseException: 'YourCompany.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpException: 'YourCompany.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 00:31:27,098 [gobom-PC][Thread:8][ERROR] DotNetNuke.UI.Modules.ModuleHost - Could not load type 'YourCompany.Modules.gobom.Viewgobom'.
+System.Web.HttpParseException: Could not load type 'YourCompany.Modules.gobom.Viewgobom'. ---> System.Web.HttpParseException: Could not load type 'YourCompany.Modules.gobom.Viewgobom'. ---> System.Web.HttpException: Could not load type 'YourCompany.Modules.gobom.Viewgobom'.
+   at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 00:31:27,268 [gobom-PC][Thread:8][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: gobom is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpParseException: Could not load type 'YourCompany.Modules.gobom.Viewgobom'. ---> System.Web.HttpParseException: Could not load type 'YourCompany.Modules.gobom.Viewgobom'. ---> System.Web.HttpException: Could not load type 'YourCompany.Modules.gobom.Viewgobom'.
+   at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 00:33:15,313 [gobom-PC][Thread:32][ERROR] DotNetNuke.UI.Modules.ModuleHost - 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'.
+System.Web.HttpParseException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpParseException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 00:33:15,514 [gobom-PC][Thread:32][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: gobom is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpParseException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpParseException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 00:36:55,612 [gobom-PC][Thread:37][ERROR] DotNetNuke.UI.Modules.ModuleHost - 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'.
+System.Web.HttpParseException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpParseException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 00:36:55,763 [gobom-PC][Thread:37][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: gobom is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpParseException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpParseException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 00:38:45,642 [gobom-PC][Thread:13][ERROR] DotNetNuke.UI.Modules.ModuleHost - It is an error to use a section registered as allowDefinition='MachineToApplication' beyond application level.  This error can be caused by a virtual directory not being configured as an application in IIS. (D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\desktopmodules\gobom\web.config line 25)
+System.Configuration.ConfigurationErrorsException: It is an error to use a section registered as allowDefinition='MachineToApplication' beyond application level.  This error can be caused by a virtual directory not being configured as an application in IIS. (D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\desktopmodules\gobom\web.config line 25)
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Web.Configuration.RuntimeConfig.GetSectionObject(String sectionName)
+   at System.Web.Configuration.RuntimeConfig.GetSection(String sectionName, Type type, ResultsIndex index)
+   at System.Web.Configuration.RuntimeConfig.get_Compilation()
+   at System.Web.Compilation.BuildProvidersCompiler..ctor(VirtualPath configPath, Boolean supportLocalization, String outputAssemblyName)
+   at System.Web.Compilation.CodeDirectoryCompiler.GetCodeDirectoryAssembly(VirtualPath virtualDir, CodeDirectoryType dirType, String assemblyName, StringSet excludedSubdirectories, Boolean isDirectoryAllowed)
+   at System.Web.Compilation.BuildManager.CompileCodeDirectory(VirtualPath virtualDir, CodeDirectoryType dirType, String assemblyName, StringSet excludedSubdirectories)
+   at System.Web.Compilation.BuildManager.EnsureFirstTimeDirectoryInit(VirtualPath virtualDir)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 00:38:45,867 [gobom-PC][Thread:13][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: gobom is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Configuration.ConfigurationErrorsException: It is an error to use a section registered as allowDefinition='MachineToApplication' beyond application level.  This error can be caused by a virtual directory not being configured as an application in IIS. (D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\desktopmodules\gobom\web.config line 25)
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Web.Configuration.RuntimeConfig.GetSectionObject(String sectionName)
+   at System.Web.Configuration.RuntimeConfig.GetSection(String sectionName, Type type, ResultsIndex index)
+   at System.Web.Configuration.RuntimeConfig.get_Compilation()
+   at System.Web.Compilation.BuildProvidersCompiler..ctor(VirtualPath configPath, Boolean supportLocalization, String outputAssemblyName)
+   at System.Web.Compilation.CodeDirectoryCompiler.GetCodeDirectoryAssembly(VirtualPath virtualDir, CodeDirectoryType dirType, String assemblyName, StringSet excludedSubdirectories, Boolean isDirectoryAllowed)
+   at System.Web.Compilation.BuildManager.CompileCodeDirectory(VirtualPath virtualDir, CodeDirectoryType dirType, String assemblyName, StringSet excludedSubdirectories)
+   at System.Web.Compilation.BuildManager.EnsureFirstTimeDirectoryInit(VirtualPath virtualDir)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 00:42:39,358 [gobom-PC][Thread:37][ERROR] DotNetNuke.UI.Modules.ModuleHost - 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'.
+System.Web.HttpParseException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpParseException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 00:42:39,528 [gobom-PC][Thread:37][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: gobom is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpParseException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpParseException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'. ---> System.Web.HttpException: 'DNN.Modules.gobom.Viewgobom' is not allowed here because it does not extend class 'System.Web.UI.UserControl'.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 00:42:41,555 [gobom-PC][Thread:32][ERROR] DotNetNuke.Framework.Reflection - Could not load type 'YourCompany.Modules.gobom.SqlDataProvider'.
+System.Web.HttpException: Could not load type 'YourCompany.Modules.gobom.SqlDataProvider'.
+   at System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   at DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Framework\Reflection.cs:line 325
+2013-05-11 00:42:41,644 [gobom-PC][Thread:32][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The type initializer for 'DDN.Modules.gobom.DataProvider' threw an exception.
+System.TypeInitializationException: The type initializer for 'DDN.Modules.gobom.DataProvider' threw an exception. ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: type
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at DotNetNuke.Framework.Reflection.CreateObject(String TypeName, String CacheKey, Boolean UseCache) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Framework\Reflection.cs:line 270
+   at DotNetNuke.Framework.Reflection.CreateObject(String ObjectProviderType, String ObjectProviderName, String ObjectNamespace, String ObjectAssemblyName, Boolean UseCache, Boolean fixAssemblyName) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Framework\Reflection.cs:line 235
+   at DotNetNuke.Framework.Reflection.CreateObject(String ObjectProviderType, String ObjectProviderName, String ObjectNamespace, String ObjectAssemblyName, Boolean UseCache) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Framework\Reflection.cs:line 164
+   at DotNetNuke.Framework.Reflection.CreateObject(String ObjectProviderType, String ObjectNamespace, String ObjectAssemblyName) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Framework\Reflection.cs:line 103
+   at DDN.Modules.gobom.DataProvider.CreateProvider() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\gobom\Components\DataProvider.cs:line 60
+   at DDN.Modules.gobom.DataProvider..cctor() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\gobom\Components\DataProvider.cs:line 52
+   --- End of inner exception stack trace ---
+   at DDN.Modules.gobom.DataProvider.Instance()
+   at DDN.Modules.gobom.gobomController.Getgoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\gobom\Components\gobomController.cs:line 64
+   at DDN.Modules.gobom.gobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\gobom\Components\gobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID)
+2013-05-11 01:04:43,784 [gobom-PC][Thread:23][ERROR] DotNetNuke.Services.Installer.Installer - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.Installer.LogInstallEvent(String package, String eventType) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Installer\Installer.cs:line 246
+2013-05-11 01:05:37,935 [gobom-PC][Thread:8][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 01:05:38,004 [gobom-PC][Thread:8][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: Xin chào các b?n is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 01:06:19,886 [gobom-PC][Thread:23][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 01:06:19,904 [gobom-PC][Thread:23][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: Xin chào các b?n is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 01:06:56,968 [gobom-PC][Thread:23][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 01:06:57,000 [gobom-PC][Thread:23][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: Xin chào các b?n is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 01:08:32,181 [gobom-PC][Thread:23][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 01:08:32,213 [gobom-PC][Thread:23][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: âsasasasasa is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 01:09:13,636 [gobom-PC][Thread:31][ERROR] DotNetNuke.Services.Installer.Installer - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.Installer.LogInstallEvent(String package, String eventType) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Installer\Installer.cs:line 246
+2013-05-11 01:09:38,913 [gobom-PC][Thread:31][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 01:09:38,968 [gobom-PC][Thread:31][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: aaaaaaaaaaa is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 01:10:29,816 [gobom-PC][Thread:23][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 01:10:30,047 [gobom-PC][Thread:23][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: aaaaaaaaaaa is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 01:11:35,351 [gobom-PC][Thread:10][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 01:11:35,369 [gobom-PC][Thread:10][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: aaaaaaaaaaa is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 01:12:03,216 [gobom-PC][Thread:32][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 01:12:03,384 [gobom-PC][Thread:32][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: aaaaaaaaaaa is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 01:12:23,559 [gobom-PC][Thread:22][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 01:12:23,627 [gobom-PC][Thread:22][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: aaaaaaaaaaa is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 01:12:29,807 [gobom-PC][Thread:31][ERROR] DotNetNuke.UI.Modules.ModuleHost - The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 01:12:29,881 [gobom-PC][Thread:31][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: aaaaaaaaaaa is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException: The file '/do-an-thuc-tap-cong-nhan/DesktopModules/DNN.DemoGobom/ViewDemoGobom.ascx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 01:15:53,310 [gobom-PC][Thread:36][ERROR] DotNetNuke.Services.Installer.Installer - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.Installer.LogInstallEvent(String package, String eventType) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Installer\Installer.cs:line 246
+2013-05-11 01:16:25,402 [gobom-PC][Thread:23][ERROR] DNN.Modules.DemoGobom.ViewDemoGobom - FriendlyMessage="Error: Phan Ð?c Chi?n is currently unavailable." ctrl="ASP.desktopmodules_dnn_gobom_viewdemogobom_ascx" exc="System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 66"
+2013-05-11 01:21:20,574 [gobom-PC][Thread:27][ERROR] DNN.Modules.DemoGobom.ViewDemoGobom - FriendlyMessage="Error: Phan Ð?c Chi?n is currently unavailable." ctrl="ASP.desktopmodules_dnn_gobom_viewdemogobom_ascx" exc="System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 66"
+2013-05-11 01:23:33,820 [gobom-PC][Thread:27][ERROR] DNN.Modules.DemoGobom.ViewDemoGobom - FriendlyMessage="Error: Phan Ð?c Chi?n is currently unavailable." ctrl="ASP.desktopmodules_dnn_gobom_viewdemogobom_ascx" exc="System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 66"
+2013-05-11 01:24:28,847 [gobom-PC][Thread:38][ERROR] DNN.Modules.DemoGobom.ViewDemoGobom - FriendlyMessage="Error: Phan Ð?c Chi?n is currently unavailable." ctrl="ASP.desktopmodules_dnn_gobom_viewdemogobom_ascx" exc="System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 66"
+2013-05-11 01:34:35,197 [gobom-PC][Thread:27][ERROR] DNN.Modules.DemoGobom.ViewDemoGobom - FriendlyMessage="Error: Phan Ð?c Chi?n is currently unavailable." ctrl="ASP.desktopmodules_dnn_gobom_viewdemogobom_ascx" exc="System.Web.HttpException: DataBinding: 'System.String' does not contain a property with the name 'ItemID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.WebControls.DataList.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 86"
+2013-05-11 01:39:28,711 [gobom-PC][Thread:25][ERROR] DNN.Modules.DemoGobom.ViewDemoGobom - FriendlyMessage="Error: Phan Ð?c Chi?n is currently unavailable." ctrl="ASP.desktopmodules_dnn_gobom_viewdemogobom_ascx" exc="System.InvalidOperationException: The stored procedure 'dbo.YourCompany_AddDemoGobom' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.AddDemoGobom(Int32 ModuleId, String Content, Int32 UserId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 147
+   at DNN.Modules.DemoGobom.DemoGobomController.AddDemoGobom(DemoGobomInfo objDemoGobom) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 101
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 75"
+2013-05-11 02:09:01,460 [gobom-PC][Thread:10][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID)
+2013-05-11 02:09:01,656 [gobom-PC][Thread:5][ERROR] DNN.Modules.DemoGobom.ViewDemoGobom - FriendlyMessage="Error: Phan Ð?c Chi?n is currently unavailable." ctrl="ASP.desktopmodules_dnn_gobom_viewdemogobom_ascx" exc="System.InvalidOperationException: The stored procedure 'dbo.YourCompany_AddDemoGobom' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.AddDemoGobom(Int32 ModuleId, String Content, Int32 UserId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 147
+   at DNN.Modules.DemoGobom.DemoGobomController.AddDemoGobom(DemoGobomInfo objDemoGobom) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 101
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 75"
+2013-05-11 02:10:12,536 [gobom-PC][Thread:9][ERROR] DotNetNuke.UI.Modules.ModuleHost - The connection name 'gobomConnectionString' was not found in the applications configuration or the connection string is empty.
+System.InvalidOperationException: The connection name 'gobomConnectionString' was not found in the applications configuration or the connection string is empty.
+   at System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionString(String connectionStringName)
+   at ASP.desktopmodules_dnn_gobom_viewdemogobom_ascx.__BuildControlSqlDataSource1()
+   at ASP.desktopmodules_dnn_gobom_viewdemogobom_ascx.__BuildControlTree(desktopmodules_dnn_gobom_viewdemogobom_ascx __ctrl)
+   at System.Web.UI.TemplateControl.LoadControl(IWebObjectFactory objectFactory, VirtualPath virtualPath, Type t, Object[] parameters)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 02:10:12,859 [gobom-PC][Thread:9][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: Phan Ð?c Chi?n is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.InvalidOperationException: The connection name 'gobomConnectionString' was not found in the applications configuration or the connection string is empty.
+   at System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionString(String connectionStringName)
+   at ASP.desktopmodules_dnn_gobom_viewdemogobom_ascx.__BuildControlSqlDataSource1()
+   at ASP.desktopmodules_dnn_gobom_viewdemogobom_ascx.__BuildControlTree(desktopmodules_dnn_gobom_viewdemogobom_ascx __ctrl)
+   at System.Web.UI.TemplateControl.LoadControl(IWebObjectFactory objectFactory, VirtualPath virtualPath, Type t, Object[] parameters)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 02:15:56,992 [gobom-PC][Thread:12][ERROR] DotNetNuke.UI.Modules.ModuleHost - The connection name 'gobomConnectionString' was not found in the applications configuration or the connection string is empty.
+System.InvalidOperationException: The connection name 'gobomConnectionString' was not found in the applications configuration or the connection string is empty.
+   at System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionString(String connectionStringName)
+   at ASP.desktopmodules_dnn_gobom_viewdemogobom_ascx.__BuildControlgobom()
+   at ASP.desktopmodules_dnn_gobom_viewdemogobom_ascx.__BuildControlTree(desktopmodules_dnn_gobom_viewdemogobom_ascx __ctrl)
+   at System.Web.UI.TemplateControl.LoadControl(IWebObjectFactory objectFactory, VirtualPath virtualPath, Type t, Object[] parameters)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 02:15:57,232 [gobom-PC][Thread:12][ERROR] DotNetNuke.UI.Modules.ModuleHost - FriendlyMessage="Error: Phan Ð?c Chi?n is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.InvalidOperationException: The connection name 'gobomConnectionString' was not found in the applications configuration or the connection string is empty.
+   at System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionString(String connectionStringName)
+   at ASP.desktopmodules_dnn_gobom_viewdemogobom_ascx.__BuildControlgobom()
+   at ASP.desktopmodules_dnn_gobom_viewdemogobom_ascx.__BuildControlTree(desktopmodules_dnn_gobom_viewdemogobom_ascx __ctrl)
+   at System.Web.UI.TemplateControl.LoadControl(IWebObjectFactory objectFactory, VirtualPath virtualPath, Type t, Object[] parameters)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270"
+2013-05-11 13:08:37,927 [gobom-PC][Thread:12][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID)
+2013-05-11 13:18:28,807 [gobom-PC][Thread:12][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DNN.Modules.DemoGobom.gobom_infoDataContext..ctor() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\gobom_info.designer.cs:line 35
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-11 13:18:28,931 [gobom-PC][Thread:12][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=55&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DNN.Modules.DemoGobom.gobom_infoDataContext..ctor() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\gobom_info.designer.cs:line 35
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-11 13:21:40,616 [gobom-PC][Thread:27][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DNN.Modules.DemoGobom.gobom_infoDataContext..ctor() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\gobom_info.designer.cs:line 35
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-11 13:21:40,699 [gobom-PC][Thread:27][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=55&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DNN.Modules.DemoGobom.gobom_infoDataContext..ctor() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\gobom_info.designer.cs:line 35
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 66
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-11 13:24:58,418 [gobom-PC][Thread:14][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidCastException: Unable to cast object of type 'DNN.Modules.DemoGobom.gobom_info' to type 'System.Web.UI.WebControls.ListItem'.
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 70
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-11 13:24:58,515 [gobom-PC][Thread:14][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=55&error=An unexpected error has occurred&content=0
+System.InvalidCastException: Unable to cast object of type 'DNN.Modules.DemoGobom.gobom_info' to type 'System.Web.UI.WebControls.ListItem'.
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 70
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-11 13:30:32,404 [gobom-PC][Thread:20][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Data source is an invalid type.  It must be either an IListSource, IEnumerable, or IDataSource.
+   at System.Web.UI.WebControls.DataBoundControl.ValidateDataSource(Object dataSource)
+   at System.Web.UI.WebControls.BaseDataBoundControl.set_DataSource(Object value)
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 68
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-11 13:30:32,520 [gobom-PC][Thread:20][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=55&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Data source is an invalid type.  It must be either an IListSource, IEnumerable, or IDataSource.
+   at System.Web.UI.WebControls.DataBoundControl.ValidateDataSource(Object dataSource)
+   at System.Web.UI.WebControls.BaseDataBoundControl.set_DataSource(Object value)
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 68
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-11 13:59:48,398 [gobom-PC][Thread:12][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID)
+2013-05-11 13:59:57,222 [gobom-PC][Thread:5][ERROR] DotNetNuke.UI.Modules.ModuleHost - Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'.
+System.Web.HttpParseException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'. ---> System.Web.HttpParseException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'. ---> System.Web.HttpException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'.
+   at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 14:01:49,617 [gobom-PC][Thread:14][ERROR] DotNetNuke.UI.Modules.ModuleHost - Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'.
+System.Web.HttpParseException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'. ---> System.Web.HttpParseException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'. ---> System.Web.HttpException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'.
+   at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 14:03:33,024 [gobom-PC][Thread:14][ERROR] DotNetNuke.UI.Modules.ModuleHost - Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'.
+System.Web.HttpParseException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'. ---> System.Web.HttpParseException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'. ---> System.Web.HttpException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'.
+   at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 14:05:05,680 [gobom-PC][Thread:12][ERROR] DotNetNuke.UI.Modules.ModuleHost - Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'.
+System.Web.HttpParseException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'. ---> System.Web.HttpParseException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'. ---> System.Web.HttpException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'.
+   at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 14:05:07,653 [gobom-PC][Thread:15][ERROR] DotNetNuke.UI.Modules.ModuleHost - Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'.
+System.Web.HttpParseException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'. ---> System.Web.HttpParseException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'. ---> System.Web.HttpException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'.
+   at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 14:05:29,889 [gobom-PC][Thread:15][ERROR] DotNetNuke.UI.Modules.ModuleHost - Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'.
+System.Web.HttpParseException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'. ---> System.Web.HttpParseException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'. ---> System.Web.HttpException: Type 'System.Web.UI.WebControls.DataList' does not have a public property named 'p'.
+   at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\ControlUtilities.cs:line 112
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\WebFormsModuleControlFactory.cs:line 37
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleControlFactory.cs:line 65
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl() in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\UI\Modules\ModuleHost.cs:line 270
+2013-05-11 18:59:49,176 [gobom-PC][Thread:11][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID)
+2013-05-11 18:59:58,173 [gobom-PC][Thread:6][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException: DataBinding: 'System.String' does not contain a property with the name 'title'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_dnn_gobom_viewdemogobom_ascx.__DataBind__control3(Object sender, EventArgs e) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\DNN_Gobom\ViewDemoGobom.ascx:line 15
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataList.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.DataList.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 87
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-11 18:59:58,276 [gobom-PC][Thread:6][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - DataBinding: 'System.String' does not contain a property with the name 'title'.
+DotNetNuke.Services.Exceptions.PageLoadException: DataBinding: 'System.String' does not contain a property with the name 'title'. ---> System.Web.HttpException: DataBinding: 'System.String' does not contain a property with the name 'title'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_dnn_gobom_viewdemogobom_ascx.__DataBind__control3(Object sender, EventArgs e) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\DesktopModules\DNN_Gobom\ViewDemoGobom.ascx:line 15
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataList.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.DataList.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 87
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2013-05-11 22:25:12,557 [gobom-PC][Thread:11][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID)
+2013-05-11 22:25:22,536 [gobom-PC][Thread:5][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 74
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-11 22:25:22,547 [gobom-PC][Thread:5][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=55&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 74
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-11 22:27:10,072 [gobom-PC][Thread:14][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 74
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-11 22:27:10,151 [gobom-PC][Thread:14][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=55&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 74
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-11 22:27:44,783 [gobom-PC][Thread:13][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 74
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-11 22:27:44,788 [gobom-PC][Thread:13][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=55&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 74
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-11 22:28:37,189 [gobom-PC][Thread:6][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 74
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-11 22:28:37,195 [gobom-PC][Thread:6][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=55&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DNN.Modules.DemoGobom.ViewDemoGobom.Page_Load(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\ViewDemoGobom.ascx.cs:line 74
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-05-11 23:57:51,789 [gobom-PC][Thread:13][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71

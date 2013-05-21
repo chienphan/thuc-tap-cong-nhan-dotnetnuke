@@ -1,0 +1,303 @@
+2013-05-12 00:36:56,447 [gobom-PC][Thread:7][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-12 01:17:24,880 [gobom-PC][Thread:12][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-12 02:07:24,723 [gobom-PC][Thread:10][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-12 02:16:38,903 [gobom-PC][Thread:17][ERROR] DotNetNuke.HttpModules.UrlRewriteModule - Resource Not Found: - /do-an-thuc-tap-cong-nhan/GettingStarted.aspx??tabid=55&ModuleId=422
+System.Web.HttpException: Resource Not Found
+2013-05-12 02:16:39,126 [gobom-PC][Thread:17][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: Resource Not Found
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpException exc, String URL) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 182
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpRequest request) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 159
+   at DotNetNuke.HttpModules.UrlRewriteModule.OnBeginRequest(Object s, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\UrlRewrite\UrlRewriteModule.cs:line 556
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-12 02:16:46,015 [gobom-PC][Thread:7][ERROR] DotNetNuke.HttpModules.UrlRewriteModule - Resource Not Found: - /do-an-thuc-tap-cong-nhan/GettingStarted.aspx??tabid=1&ModuleId=1
+System.Web.HttpException: Resource Not Found
+2013-05-12 02:16:46,028 [gobom-PC][Thread:7][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: Resource Not Found
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpException exc, String URL) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 182
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpRequest request) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 159
+   at DotNetNuke.HttpModules.UrlRewriteModule.OnBeginRequest(Object s, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\UrlRewrite\UrlRewriteModule.cs:line 556
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-12 02:17:05,858 [gobom-PC][Thread:7][ERROR] DotNetNuke.HttpModules.UrlRewriteModule - Resource Not Found: - /do-an-thuc-tap-cong-nhan/GettingStarted.aspx??tabid=1&ModuleId=1
+System.Web.HttpException: Resource Not Found
+2013-05-12 02:17:05,877 [gobom-PC][Thread:7][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: Resource Not Found
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpException exc, String URL) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 182
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpRequest request) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 159
+   at DotNetNuke.HttpModules.UrlRewriteModule.OnBeginRequest(Object s, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\UrlRewrite\UrlRewriteModule.cs:line 556
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-12 02:17:12,191 [gobom-PC][Thread:17][ERROR] DotNetNuke.HttpModules.UrlRewriteModule - Resource Not Found: - /do-an-thuc-tap-cong-nhan/GettingStarted.aspx?tabid=1&ModuleId=1
+System.Web.HttpException: Resource Not Found
+2013-05-12 02:17:12,199 [gobom-PC][Thread:17][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: Resource Not Found
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpException exc, String URL) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 182
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpRequest request) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 159
+   at DotNetNuke.HttpModules.UrlRewriteModule.OnBeginRequest(Object s, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\UrlRewrite\UrlRewriteModule.cs:line 556
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-12 02:17:17,179 [gobom-PC][Thread:7][ERROR] DotNetNuke.HttpModules.UrlRewriteModule - Resource Not Found: - /do-an-thuc-tap-cong-nhan/GettingStarted.aspx?tabid=3&ModuleId=1
+System.Web.HttpException: Resource Not Found
+2013-05-12 02:17:17,196 [gobom-PC][Thread:7][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: Resource Not Found
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpException exc, String URL) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 182
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpRequest request) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 159
+   at DotNetNuke.HttpModules.UrlRewriteModule.OnBeginRequest(Object s, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\UrlRewrite\UrlRewriteModule.cs:line 556
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-12 11:02:47,039 [gobom-PC][Thread:11][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-12 11:11:04,873 [gobom-PC][Thread:22][ERROR] DotNetNuke.HttpModules.UrlRewriteModule - Resource Not Found: - /do-an-thuc-tap-cong-nhan/GettingStarted.aspx??tabid=12
+System.Web.HttpException: Resource Not Found
+2013-05-12 11:11:04,958 [gobom-PC][Thread:22][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: Resource Not Found
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpException exc, String URL) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 182
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpRequest request) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 159
+   at DotNetNuke.HttpModules.UrlRewriteModule.OnBeginRequest(Object s, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\UrlRewrite\UrlRewriteModule.cs:line 556
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-12 11:11:11,820 [gobom-PC][Thread:22][ERROR] DotNetNuke.HttpModules.UrlRewriteModule - Resource Not Found: - /do-an-thuc-tap-cong-nhan/GettingStarted.aspx??tabid=55
+System.Web.HttpException: Resource Not Found
+2013-05-12 11:11:11,901 [gobom-PC][Thread:22][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: Resource Not Found
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpException exc, String URL) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 182
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpRequest request) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 159
+   at DotNetNuke.HttpModules.UrlRewriteModule.OnBeginRequest(Object s, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\UrlRewrite\UrlRewriteModule.cs:line 556
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-12 11:11:13,220 [gobom-PC][Thread:22][ERROR] DotNetNuke.HttpModules.UrlRewriteModule - Resource Not Found: - /do-an-thuc-tap-cong-nhan/GettingStarted.aspx??tabid=55
+System.Web.HttpException: Resource Not Found
+2013-05-12 11:11:13,235 [gobom-PC][Thread:22][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: Resource Not Found
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpException exc, String URL) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 182
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpRequest request) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 159
+   at DotNetNuke.HttpModules.UrlRewriteModule.OnBeginRequest(Object s, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\UrlRewrite\UrlRewriteModule.cs:line 556
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-12 11:11:17,338 [gobom-PC][Thread:24][ERROR] DotNetNuke.HttpModules.UrlRewriteModule - Resource Not Found: - /do-an-thuc-tap-cong-nhan/GettingStarted.aspx?tabid=55
+System.Web.HttpException: Resource Not Found
+2013-05-12 11:11:17,352 [gobom-PC][Thread:24][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: Resource Not Found
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpException exc, String URL) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 182
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpRequest request) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 159
+   at DotNetNuke.HttpModules.UrlRewriteModule.OnBeginRequest(Object s, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\UrlRewrite\UrlRewriteModule.cs:line 556
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-12 11:11:19,077 [gobom-PC][Thread:22][ERROR] DotNetNuke.HttpModules.UrlRewriteModule - Resource Not Found: - /do-an-thuc-tap-cong-nhan/GettingStarted.aspx?tabid=55
+System.Web.HttpException: Resource Not Found
+2013-05-12 11:11:19,087 [gobom-PC][Thread:22][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: Resource Not Found
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpException exc, String URL) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 182
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpRequest request) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 159
+   at DotNetNuke.HttpModules.UrlRewriteModule.OnBeginRequest(Object s, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\UrlRewrite\UrlRewriteModule.cs:line 556
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-12 11:11:23,208 [gobom-PC][Thread:22][ERROR] DotNetNuke.HttpModules.UrlRewriteModule - Resource Not Found: - /do-an-thuc-tap-cong-nhan/GettingStarted.aspx?tabid=14
+System.Web.HttpException: Resource Not Found
+2013-05-12 11:11:23,218 [gobom-PC][Thread:22][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException: Resource Not Found
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpException exc, String URL) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 182
+   at DotNetNuke.Services.Exceptions.Exceptions.ProcessHttpException(HttpRequest request) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Exceptions\Exceptions.cs:line 159
+   at DotNetNuke.HttpModules.UrlRewriteModule.OnBeginRequest(Object s, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\UrlRewrite\UrlRewriteModule.cs:line 556
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-12 11:39:33,448 [gobom-PC][Thread:12][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-12 12:15:44,015 [gobom-PC][Thread:8][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-12 13:45:39,470 [gobom-PC][Thread:24][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-12 14:19:51,900 [gobom-PC][Thread:10][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-12 15:53:23,508 [gobom-PC][Thread:6][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-12 15:53:23,548 [gobom-PC][Thread:12][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-12 16:21:18,533 [gobom-PC][Thread:15][ERROR] DotNetNuke.Services.Installer.Installer - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.Installer.LogInstallEvent(String package, String eventType) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Library\Services\Installer\Installer.cs:line 246
+2013-05-12 16:24:11,811 [gobom-PC][Thread:19][ERROR] GobomDNN.Modules.GobomModuleNews.EditGobomModuleNews - FriendlyMessage="Error:  is currently unavailable." ctrl="ASP.desktopmodules_gobommodulenews_editgobommodulenews_ascx" exc="System.InvalidOperationException: The stored procedure 'dbo.YourCompany_AddGobomModuleNews' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.AddGobomModuleNews(Int32 ModuleId, String Content, Int32 UserId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 147
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.AddGobomModuleNews(GobomModuleNewsInfo objGobomModuleNews) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 101
+   at GobomDNN.Modules.GobomModuleNews.EditGobomModuleNews.cmdUpdate_Click(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\EditGobomModuleNews.ascx.cs:line 159"
+2013-05-12 16:24:24,898 [gobom-PC][Thread:9][ERROR] GobomDNN.Modules.GobomModuleNews.EditGobomModuleNews - FriendlyMessage="Error:  is currently unavailable." ctrl="ASP.desktopmodules_gobommodulenews_editgobommodulenews_ascx" exc="System.InvalidOperationException: The stored procedure 'dbo.YourCompany_AddGobomModuleNews' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.AddGobomModuleNews(Int32 ModuleId, String Content, Int32 UserId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 147
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.AddGobomModuleNews(GobomModuleNewsInfo objGobomModuleNews) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 101
+   at GobomDNN.Modules.GobomModuleNews.EditGobomModuleNews.cmdUpdate_Click(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\EditGobomModuleNews.ascx.cs:line 159"
+2013-05-12 16:24:27,904 [gobom-PC][Thread:19][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-12 16:24:28,020 [gobom-PC][Thread:19][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-12 16:28:37,131 [gobom-PC][Thread:8][ERROR] GobomDNN.Modules.GobomModuleNews.EditGobomModuleNews - FriendlyMessage="Error:  is currently unavailable." ctrl="ASP.desktopmodules_gobommodulenews_editgobommodulenews_ascx" exc="System.InvalidOperationException: The stored procedure 'dbo.YourCompany_AddGobomModuleNews' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.AddGobomModuleNews(Int32 ModuleId, String Content, Int32 UserId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 147
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.AddGobomModuleNews(GobomModuleNewsInfo objGobomModuleNews) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 101
+   at GobomDNN.Modules.GobomModuleNews.EditGobomModuleNews.cmdUpdate_Click(Object sender, EventArgs e) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\EditGobomModuleNews.ascx.cs:line 159"
+2013-05-12 17:05:42,657 [gobom-PC][Thread:10][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetDemoGoboms' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DNN.Modules.DemoGobom.SqlDataProvider.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\SqlDataProvider.cs:line 137
+   at DNN.Modules.DemoGobom.DemoGobomController.GetDemoGoboms(Int32 ModuleId) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 64
+   at DNN.Modules.DemoGobom.DemoGobomController.GetSearchItems(ModuleInfo ModInfo) in d:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\Components\DemoGobomController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71
+2013-05-12 17:05:42,896 [gobom-PC][Thread:10][ERROR] DotNetNuke.Services.Search.ModuleIndexer - The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+System.InvalidOperationException: The stored procedure 'dbo.YourCompany_GetGobomModuleNewss' doesn't exist.
+   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at GobomDNN.Modules.GobomModuleNews.SqlDataProvider.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\SqlDataProvider.cs:line 137
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetGobomModuleNewss(Int32 ModuleId) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 64
+   at GobomDNN.Modules.GobomModuleNews.GobomModuleNewsController.GetSearchItems(ModuleInfo ModInfo) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\Components\GobomModuleNewsController.cs:line 163
+   at DotNetNuke.Services.Search.ModuleIndexer.GetSearchIndexItems(Int32 PortalID) in D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\ModuleIndexer\ModuleIndexer.cs:line 71

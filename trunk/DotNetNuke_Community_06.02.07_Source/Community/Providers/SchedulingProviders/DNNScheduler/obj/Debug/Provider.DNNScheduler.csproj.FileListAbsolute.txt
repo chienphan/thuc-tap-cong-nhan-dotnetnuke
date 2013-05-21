@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SchedulingProviders\DNNScheduler\bin\DotNetNuke.DNNScheduler.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SchedulingProviders\DNNScheduler\bin\DotNetNuke.DNNScheduler.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SchedulingProviders\DNNScheduler\bin\DotNetNuke.DNNScheduler.xml
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SchedulingProviders\DNNScheduler\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SchedulingProviders\DNNScheduler\obj\Debug\DotNetNuke.DNNScheduler.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SchedulingProviders\DNNScheduler\obj\Debug\DotNetNuke.DNNScheduler.pdb

@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\DataProviders\SqlDataProvider\bin\DotNetNuke.SqlDataProvider.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\DataProviders\SqlDataProvider\bin\DotNetNuke.SqlDataProvider.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\DataProviders\SqlDataProvider\bin\DotNetNuke.SqlDataProvider.xml
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\DataProviders\SqlDataProvider\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\DataProviders\SqlDataProvider\obj\Debug\DotNetNuke.SqlDataProvider.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\DataProviders\SqlDataProvider\obj\Debug\DotNetNuke.SqlDataProvider.pdb

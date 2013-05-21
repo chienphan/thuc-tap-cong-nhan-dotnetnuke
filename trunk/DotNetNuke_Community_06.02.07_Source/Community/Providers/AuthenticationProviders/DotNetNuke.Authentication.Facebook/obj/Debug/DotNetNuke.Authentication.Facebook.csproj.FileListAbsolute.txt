@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Facebook\bin\DotNetNuke.Authentication.Facebook.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Facebook\bin\DotNetNuke.Authentication.Facebook.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Facebook\bin\DotNetNuke.Authentication.Facebook.XML
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Facebook\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Facebook\obj\Debug\DotNetNuke.Authentication.Facebook.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Facebook\obj\Debug\DotNetNuke.Authentication.Facebook.pdb

@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\MembershipProviders\DataProvider\bin\DotNetNuke.Membership.DataProvider.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\MembershipProviders\DataProvider\bin\DotNetNuke.Membership.DataProvider.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\MembershipProviders\DataProvider\bin\DotNetNuke.Membership.DataProvider.xml
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\MembershipProviders\DataProvider\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\MembershipProviders\DataProvider\obj\Debug\DotNetNuke.Membership.DataProvider.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\MembershipProviders\DataProvider\obj\Debug\DotNetNuke.Membership.DataProvider.pdb

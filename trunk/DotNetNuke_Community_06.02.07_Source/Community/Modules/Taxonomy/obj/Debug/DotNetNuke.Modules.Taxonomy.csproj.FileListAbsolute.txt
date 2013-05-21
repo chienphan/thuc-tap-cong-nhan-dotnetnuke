@@ -1,0 +1,7 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\Taxonomy\bin\DotNetNuke.Modules.Taxonomy.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\Taxonomy\bin\DotNetNuke.Modules.Taxonomy.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\Taxonomy\bin\DotNetNuke.Modules.Taxonomy.xml
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\Taxonomy\bin\WebFormsMvp.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\Taxonomy\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\Taxonomy\obj\Debug\DotNetNuke.Modules.Taxonomy.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Modules\Taxonomy\obj\Debug\DotNetNuke.Modules.Taxonomy.pdb

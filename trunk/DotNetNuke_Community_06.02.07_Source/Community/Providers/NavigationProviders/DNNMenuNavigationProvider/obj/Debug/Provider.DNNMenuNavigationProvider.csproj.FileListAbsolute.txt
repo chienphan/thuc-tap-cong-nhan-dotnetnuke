@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\NavigationProviders\DNNMenuNavigationProvider\bin\DotNetNuke.DNNMenuNavigationProvider.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\NavigationProviders\DNNMenuNavigationProvider\bin\DotNetNuke.DNNMenuNavigationProvider.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\NavigationProviders\DNNMenuNavigationProvider\bin\DotNetNuke.DNNMenuNavigationProvider.xml
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\NavigationProviders\DNNMenuNavigationProvider\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\NavigationProviders\DNNMenuNavigationProvider\obj\Debug\DotNetNuke.DNNMenuNavigationProvider.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\NavigationProviders\DNNMenuNavigationProvider\obj\Debug\DotNetNuke.DNNMenuNavigationProvider.pdb

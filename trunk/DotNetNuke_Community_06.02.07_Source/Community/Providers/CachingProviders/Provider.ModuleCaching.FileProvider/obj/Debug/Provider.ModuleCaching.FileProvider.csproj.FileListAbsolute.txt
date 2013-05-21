@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\CachingProviders\Provider.ModuleCaching.FileProvider\bin\DotNetNuke.Provider.ModuleCaching.FileProvider.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\CachingProviders\Provider.ModuleCaching.FileProvider\bin\DotNetNuke.Provider.ModuleCaching.FileProvider.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\CachingProviders\Provider.ModuleCaching.FileProvider\bin\DotNetNuke.Provider.ModuleCaching.FileProvider.xml
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\CachingProviders\Provider.ModuleCaching.FileProvider\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\CachingProviders\Provider.ModuleCaching.FileProvider\obj\Debug\DotNetNuke.Provider.ModuleCaching.FileProvider.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\CachingProviders\Provider.ModuleCaching.FileProvider\obj\Debug\DotNetNuke.Provider.ModuleCaching.FileProvider.pdb

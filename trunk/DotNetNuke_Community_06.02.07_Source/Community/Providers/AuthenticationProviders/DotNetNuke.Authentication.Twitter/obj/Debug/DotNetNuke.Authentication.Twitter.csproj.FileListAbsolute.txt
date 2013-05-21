@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Twitter\bin\DotNetNuke.Authentication.Twitter.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Twitter\bin\DotNetNuke.Authentication.Twitter.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Twitter\bin\DotNetNuke.Authentication.Twitter.XML
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Twitter\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Twitter\obj\Debug\DotNetNuke.Authentication.Twitter.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Twitter\obj\Debug\DotNetNuke.Authentication.Twitter.pdb

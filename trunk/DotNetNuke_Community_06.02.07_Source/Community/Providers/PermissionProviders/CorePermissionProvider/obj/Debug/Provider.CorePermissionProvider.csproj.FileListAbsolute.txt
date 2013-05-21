@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\PermissionProviders\CorePermissionProvider\bin\DotNetNuke.Provider.CorePermissionProvider.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\PermissionProviders\CorePermissionProvider\bin\DotNetNuke.Provider.CorePermissionProvider.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\PermissionProviders\CorePermissionProvider\bin\DotNetNuke.Provider.CorePermissionProvider.xml
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\PermissionProviders\CorePermissionProvider\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\PermissionProviders\CorePermissionProvider\obj\Debug\DotNetNuke.Provider.CorePermissionProvider.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\PermissionProviders\CorePermissionProvider\obj\Debug\DotNetNuke.Provider.CorePermissionProvider.pdb

@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\SearchDataStore\bin\DotNetNuke.Search.DataStore.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\SearchDataStore\bin\DotNetNuke.Search.DataStore.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\SearchDataStore\bin\DotNetNuke.Search.DataStore.xml
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\SearchDataStore\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\SearchDataStore\obj\Debug\DotNetNuke.Search.DataStore.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\SearchProviders\SearchDataStore\obj\Debug\DotNetNuke.Search.DataStore.pdb

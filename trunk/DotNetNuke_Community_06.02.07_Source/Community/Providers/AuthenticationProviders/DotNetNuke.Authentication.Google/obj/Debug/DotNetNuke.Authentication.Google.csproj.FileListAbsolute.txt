@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Google\bin\DotNetNuke.Authentication.Google.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Google\bin\DotNetNuke.Authentication.Google.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Google\bin\DotNetNuke.Authentication.Google.XML
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Google\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Google\obj\Debug\DotNetNuke.Authentication.Google.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\AuthenticationProviders\DotNetNuke.Authentication.Google\obj\Debug\DotNetNuke.Authentication.Google.pdb

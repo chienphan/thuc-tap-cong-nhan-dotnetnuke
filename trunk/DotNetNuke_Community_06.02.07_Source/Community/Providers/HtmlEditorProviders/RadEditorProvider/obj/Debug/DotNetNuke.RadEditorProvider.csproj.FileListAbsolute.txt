@@ -1,0 +1,6 @@
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\HtmlEditorProviders\RadEditorProvider\bin\DotNetNuke.RadEditorProvider.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\HtmlEditorProviders\RadEditorProvider\bin\DotNetNuke.RadEditorProvider.pdb
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\HtmlEditorProviders\RadEditorProvider\bin\DotNetNuke.RadEditorProvider.xml
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\HtmlEditorProviders\RadEditorProvider\obj\Debug\ResolveAssemblyReference.cache
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\HtmlEditorProviders\RadEditorProvider\obj\Debug\DotNetNuke.RadEditorProvider.dll
+D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Providers\HtmlEditorProviders\RadEditorProvider\obj\Debug\DotNetNuke.RadEditorProvider.pdb
