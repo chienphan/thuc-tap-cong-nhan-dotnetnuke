@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Add.ascx.cs" Inherits="DNN.Modules.DemoGobom.Add" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Update.ascx.cs" Inherits="DNN.Modules.DemoGobom.Update" %>
 <%@ Register TagPrefix="dnn" TagName="Label" Src="~/controls/LabelControl.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="TextEditor" Src="~/controls/TextEditor.ascx"%>
 <%@ Register TagPrefix="dnn" TagName="Audit" Src="~/controls/ModuleAuditControl.ascx" %>
@@ -46,6 +46,7 @@
 	</tr>
 </table>
 <p>
-    <asp:linkbutton cssclass="CommandButton" id="cmdSubmit" resourcekey="cmdSubmit" runat="server" borderstyle="none" text="Submit" OnClick="cmdSubmit_Click"></asp:linkbutton>&nbsp;
+    <asp:linkbutton cssclass="CommandButton" id="cmdUpdate" resourcekey="cmdUpdate" runat="server" borderstyle="none" text="Update" OnClick="cmdUpdate_Click"></asp:linkbutton>&nbsp;
     <asp:linkbutton cssclass="CommandButton" id="cmdCancel" resourcekey="cmdCancel" runat="server" borderstyle="none" text="Cancel" causesvalidation="False" OnClick="cmdCancel_Click"></asp:linkbutton>&nbsp;
 </p>
+<asp:Label ID="Label1" runat="server" Text="Label" Visible="false"></asp:Label>

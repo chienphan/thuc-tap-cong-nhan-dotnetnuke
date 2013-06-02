@@ -99,12 +99,29 @@ namespace DNN.Modules.DemoGobom
             get
             {
                 ModuleActionCollection Actions = new ModuleActionCollection();
-                Actions.Add(GetNextActionID(), Localization.GetString(ModuleActionType.AddContent, this.LocalResourceFile),
-                   ModuleActionType.AddContent, "", "add.gif", EditUrl(), false, DotNetNuke.Security.SecurityAccessLevel.Edit,
-                    true, false);
-                Actions.Add(GetNextActionID(), /*Localization.GetString(ModuleActionType.AddContent, this.LocalResourceFile)*/ "Chien Phan",
-                   ModuleActionType.AddContent, "", "add.gif", EditUrl(), false, DotNetNuke.Security.SecurityAccessLevel.Edit,
-                    true, false);
+                Actions.Add(GetNextActionID(), 
+                    //Localization.GetString(ModuleActionType.AddContent, this.LocalResourceFile),
+                    "Manage News",
+                    ModuleActionType.AddContent, 
+                    "", 
+                    "add.gif", 
+                    EditUrl("Manage"), 
+                    false, 
+                    DotNetNuke.Security.SecurityAccessLevel.Edit,
+                    true, 
+                    false);
+
+                Actions.Add(GetNextActionID(),
+                    "Adding news",
+                    ModuleActionType.AddContent,
+                    "", 
+                    "add.gif", 
+                    EditUrl("Add"), 
+                    false, 
+                    DotNetNuke.Security.SecurityAccessLevel.Edit,
+                    true, 
+                    true);
+
                 return Actions;
             }
         }

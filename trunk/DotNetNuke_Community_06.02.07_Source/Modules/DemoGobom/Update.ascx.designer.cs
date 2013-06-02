@@ -10,7 +10,7 @@
 namespace DNN.Modules.DemoGobom {
     
     
-    public partial class Add {
+    public partial class Update {
         
         /// <summary>
         /// dropdownList control.
@@ -112,13 +112,13 @@ namespace DNN.Modules.DemoGobom {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
         
         /// <summary>
-        /// cmdSubmit control.
+        /// cmdUpdate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton cmdSubmit;
+        protected global::System.Web.UI.WebControls.LinkButton cmdUpdate;
         
         /// <summary>
         /// cmdCancel control.
@@ -128,5 +128,14 @@ namespace DNN.Modules.DemoGobom {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton cmdCancel;
+        
+        /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
     }
 }

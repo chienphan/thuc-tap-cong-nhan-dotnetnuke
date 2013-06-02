@@ -101,9 +101,9 @@ namespace DNN.Modules.DemoGobom.Components
 		
 		private string _ImageURL;
 		
-		private long _DateCreate;
+		private string _DateCreate;
 		
-		private System.Nullable<long> _DateModified;
+		private string _DateModified;
 		
 		private string _Poster;
 		
@@ -123,9 +123,9 @@ namespace DNN.Modules.DemoGobom.Components
     partial void OnContentsChanged();
     partial void OnImageURLChanging(string value);
     partial void OnImageURLChanged();
-    partial void OnDateCreateChanging(long value);
+    partial void OnDateCreateChanging(string value);
     partial void OnDateCreateChanged();
-    partial void OnDateModifiedChanging(System.Nullable<long> value);
+    partial void OnDateModifiedChanging(string value);
     partial void OnDateModifiedChanged();
     partial void OnPosterChanging(string value);
     partial void OnPosterChanged();
@@ -237,8 +237,8 @@ namespace DNN.Modules.DemoGobom.Components
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DateCreate", DbType="BigInt NOT NULL")]
-		public long DateCreate
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DateCreate", DbType="Text NOT NULL", CanBeNull=false, UpdateCheck=UpdateCheck.Never)]
+		public string DateCreate
 		{
 			get
 			{
@@ -257,8 +257,8 @@ namespace DNN.Modules.DemoGobom.Components
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DateModified", DbType="BigInt")]
-		public System.Nullable<long> DateModified
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DateModified", DbType="Text", UpdateCheck=UpdateCheck.Never)]
+		public string DateModified
 		{
 			get
 			{

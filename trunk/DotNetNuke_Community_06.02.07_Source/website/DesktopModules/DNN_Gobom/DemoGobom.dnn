@@ -19,6 +19,27 @@
               <helpurl></helpurl>
             </control>
             <control>
+              <key>Manage</key>
+              <title>Manage News</title>
+              <src>DesktopModules/DNN_Gobom/Manager.ascx</src>
+              <type>Edit</type>
+              <helpurl></helpurl>
+            </control>
+            <control>
+              <key>Update</key>
+              <title>Update News</title>
+              <src>DesktopModules/DNN_Gobom/Update.ascx</src>
+              <type>Edit</type>
+              <helpurl></helpurl>
+            </control>
+            <control>
+              <key>Delete</key>
+              <title>Delete News</title>
+              <src>DesktopModules/DNN_Gobom/Delete.ascx</src>
+              <type>Edit</type>
+              <helpurl></helpurl>
+            </control>
+            <control>
               <key>Edit</key>
               <title>Edit Content</title>
               <src>DesktopModules/DNN_Gobom/EditDemoGobom.ascx</src>
@@ -54,6 +75,15 @@
         </file>
         <file>
           <name>Add.ascx</name>
+        </file>
+        <file>
+          <name>Manager.ascx</name>
+        </file>
+        <file>
+          <name>Delete.ascx</name>
+        </file>
+        <file>
+          <name>Update.ascx</name>
         </file>
         <file>
           <name>Settings.ascx</name>
