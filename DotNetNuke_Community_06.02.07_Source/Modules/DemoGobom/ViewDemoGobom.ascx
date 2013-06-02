@@ -5,7 +5,10 @@
 </asp:GridView>
 <asp:DataList ID="DataList1" RepeatDirection= Vertical runat="Server">
     <ItemTemplate>
-        <a href="./Default.aspx?TabID=89&NewsID=<%# DataBinder.Eval(Container.DataItem, "ID") %>"><h1><%# DataBinder.Eval(Container.DataItem, "Title") %></h1></a>
-        <%# DataBinder.Eval(Container.DataItem, "Contents") %>
+            <a href="./tabid/89/NewsID/<%# DataBinder.Eval(Container.DataItem, "ID") %>/Default.aspx"><h3><%# DataBinder.Eval(Container.DataItem, "Title") %></h3></a>
+            <div>
+                <div style="width:20%; float:left"><img src="<%# DataBinder.Eval(Container.DataItem, "ImageURL") %>" height="100" width="100"></div>
+                <div style="text-align:justify; width:80%; float:right"><%# DataBinder.Eval(Container.DataItem, "Contents").ToString().Substring(0,400) + "..." %></div>
+            </div>
     </ItemTemplate>
 </asp:DataList>

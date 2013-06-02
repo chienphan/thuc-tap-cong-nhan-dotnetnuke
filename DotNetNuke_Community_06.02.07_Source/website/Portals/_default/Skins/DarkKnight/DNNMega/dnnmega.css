@@ -43,7 +43,7 @@ ul.dnnmega .megaborder ul li.category a span{background: none;height:auto;}
 
 ul.dnnmega li.category {display:block;width:180px;float:left;}
 ul.dnnmega li.category a{display:block;padding:0;margin:0;}
-ul.dnnmega li.category a span{display:block;font-size:18px;color:#686868;border-bottom:1px solid #e5e4e4;margin:0 14px 0 18px;padding:0;}
+ul.dnnmega li.category a span{display:block;font-size:12spx;color:#686868;border-bottom:1px solid #e5e4e4;margin:0 14px 0 18px;padding:0;}
 ul.dnnmega li.category a:hover span{color:#c11820;}
 
 ul.dnnmega li.category ul{padding:8px 0 0 0;}
