@@ -14,7 +14,7 @@
         <elementListCompartment Id="18290fd1-78be-4bf8-adb0-0b60174582f0" absoluteBounds="1.3900000000000001, 3.835, 1.9700000000000002, 1.5222371419270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(3.375 : 4.04807657877604); (5.125 : 4.04807657877604)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(3.375 : 4.04807657877604); (5.125 : 4.04807657877604)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/GobomNewsDataContext/gobom_New/gobom_New_gobom_Tag" />
       <nodes>
         <classShapeMoniker Id="1a56c3d8-8971-4793-8f1e-20e7b4c5536b" />

@@ -3,3 +3,8 @@ D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\bin\DNN.Modules.DemoG
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\bin\DNN.Modules.DemoGobom.pdb
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\obj\Debug\DNN.Modules.DemoGobom.dll
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\obj\Debug\DNN.Modules.DemoGobom.pdb
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\website\bin\DNN.Modules.DemoGobom.dll
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\website\bin\DNN.Modules.DemoGobom.pdb
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\obj\Debug\ResolveAssemblyReference.cache
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\obj\Debug\DNN.Modules.DemoGobom.dll
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Modules\DemoGobom\obj\Debug\DNN.Modules.DemoGobom.pdb

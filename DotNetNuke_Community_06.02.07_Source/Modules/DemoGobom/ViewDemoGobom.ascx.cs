@@ -62,10 +62,12 @@ namespace DNN.Modules.DemoGobom
         /// </summary> 
         /// ----------------------------------------------------------------------------- 
         protected void Page_Load(object sender, System.EventArgs e)
-        { 
-            NewsDatabaseDataContext dataContext = new NewsDatabaseDataContext("Data Source=GOBOM-PC;Initial Catalog=gobom;Persist Security Info=True;User ID=sa;Password=123456");
+        {
+            string stringcon = ConfigurationManager.ConnectionStrings["SiteSqlServer"].ConnectionString;
+            NewsDatabaseDataContext dataContext = new NewsDatabaseDataContext(stringcon);
             
             var listOfNews = from news in dataContext.gobom_News
+                             orderby news.ID descending
                              select news;
 
             GridView1.DataSource = listOfNews;

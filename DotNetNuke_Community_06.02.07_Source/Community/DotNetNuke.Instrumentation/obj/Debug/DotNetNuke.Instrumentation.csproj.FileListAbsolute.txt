@@ -4,3 +4,9 @@ D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Instrume
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Instrumentation\obj\Debug\ResolveAssemblyReference.cache
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Instrumentation\obj\Debug\DotNetNuke.Instrumentation.dll
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Instrumentation\obj\Debug\DotNetNuke.Instrumentation.pdb
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Instrumentation\bin\DotNetNuke.Instrumentation.dll
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Instrumentation\bin\DotNetNuke.Instrumentation.pdb
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Instrumentation\bin\DotNetNuke.Instrumentation.xml
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Instrumentation\obj\Debug\ResolveAssemblyReference.cache
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Instrumentation\obj\Debug\DotNetNuke.Instrumentation.dll
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Instrumentation\obj\Debug\DotNetNuke.Instrumentation.pdb

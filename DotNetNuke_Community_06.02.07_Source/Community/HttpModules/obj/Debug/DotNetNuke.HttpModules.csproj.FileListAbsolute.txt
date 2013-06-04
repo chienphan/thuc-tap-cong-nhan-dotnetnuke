@@ -4,3 +4,9 @@ D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\bin\Dot
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\obj\Debug\ResolveAssemblyReference.cache
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\obj\Debug\DotNetNuke.HttpModules.dll
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\obj\Debug\DotNetNuke.HttpModules.pdb
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\bin\DotNetNuke.HttpModules.dll
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\bin\DotNetNuke.HttpModules.pdb
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\bin\DotNetNuke.HttpModules.xml
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\obj\Debug\ResolveAssemblyReference.cache
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\obj\Debug\DotNetNuke.HttpModules.dll
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\HttpModules\obj\Debug\DotNetNuke.HttpModules.pdb

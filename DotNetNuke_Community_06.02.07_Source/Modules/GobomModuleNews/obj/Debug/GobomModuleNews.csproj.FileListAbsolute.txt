@@ -3,3 +3,8 @@ D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\website\bin\GobomDNN.Modules.
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\obj\Debug\ResolveAssemblyReference.cache
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\obj\Debug\GobomDNN.Modules.GobomModuleNews.dll
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\obj\Debug\GobomDNN.Modules.GobomModuleNews.pdb
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\website\bin\GobomDNN.Modules.GobomModuleNews.dll
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\website\bin\GobomDNN.Modules.GobomModuleNews.pdb
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\obj\Debug\ResolveAssemblyReference.cache
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\obj\Debug\GobomDNN.Modules.GobomModuleNews.dll
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Modules\GobomModuleNews\obj\Debug\GobomDNN.Modules.GobomModuleNews.pdb
