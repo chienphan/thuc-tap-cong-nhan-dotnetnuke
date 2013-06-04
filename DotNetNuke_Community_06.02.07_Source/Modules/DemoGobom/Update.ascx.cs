@@ -24,7 +24,7 @@ namespace DNN.Modules.DemoGobom
                 int NewsID = int.Parse(listParam["NewsID"].ToString());
 
                 gobom_New news = dataContext.gobom_News.SingleOrDefault(c => c.ID == NewsID);
-                String TagName = dataContext.gobom_Tags.SingleOrDefault(c => c.ID == news.ID).TagName;
+                String TagName = dataContext.gobom_Tags.SingleOrDefault(c => c.ID == news.IDTag).TagName;
                 String[] ListTagName = (from item in dataContext.gobom_Tags select item.TagName).ToArray();
 
                 foreach (string item in ListTagName)
@@ -74,7 +74,7 @@ namespace DNN.Modules.DemoGobom
                 updateRow.Title = title;
                 updateRow.Contents = content;
                 updateRow.Poster = poster;
-                updateRow.DateCreate = System.DateTime.Now.ToString();
+                //updateRow.DateCreate = System.DateTime.Now.ToString();
                 updateRow.DateModified = System.DateTime.Now.ToString();
 
                 try
