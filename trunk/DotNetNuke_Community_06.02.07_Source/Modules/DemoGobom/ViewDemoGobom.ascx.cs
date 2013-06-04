@@ -69,10 +69,7 @@ namespace DNN.Modules.DemoGobom
             var listOfNews = from news in dataContext.gobom_News
                              orderby news.ID descending
                              select news;
-
-            GridView1.DataSource = listOfNews;
-            GridView1.Visible = false;
-            //GridView1.DataBind();
+            
             DataList1.DataSource = listOfNews;
             DataList1.DataBind();
             //label1.Text = PortalSettings.ActiveTab.FullUrl;
