@@ -1,0 +1,5 @@
+D:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Modules\DepartmentsPage\obj\Debug\ResolveAssemblyReference.cache
+D:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\website\bin\DNN.Modules.DepartmentsPage.dll
+D:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\website\bin\DNN.Modules.DepartmentsPage.pdb
+D:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Modules\DepartmentsPage\obj\Debug\DNN.Modules.DepartmentsPage.dll
+D:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Modules\DepartmentsPage\obj\Debug\DNN.Modules.DepartmentsPage.pdb

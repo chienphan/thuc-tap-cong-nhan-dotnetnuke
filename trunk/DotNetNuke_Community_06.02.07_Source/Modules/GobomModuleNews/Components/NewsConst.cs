@@ -37,7 +37,15 @@ namespace GobomDNN.Modules.GobomModuleNews.Components
         }
         public int GetTagNewsIDFromTabID(int TabID)
         {
-            return _mapTabID[TabID];
+            try
+            {
+                return _mapTabID[TabID];
+            }
+            catch (System.Exception ex)
+            {
+
+            }
+            return 0;
         }
     }
 }

@@ -18,4 +18,3 @@
     <asp:linkbutton cssclass="CommandButton" id="cmdDelete" resourcekey="cmdDelete" runat="server" borderstyle="none" text="Delete" causesvalidation="False" OnClick="cmdDelete_Click"></asp:linkbutton>&nbsp;
 </p>
 <dnn:Audit id="ctlAudit" runat="server" />
-<p>Day la trang Edit</p>

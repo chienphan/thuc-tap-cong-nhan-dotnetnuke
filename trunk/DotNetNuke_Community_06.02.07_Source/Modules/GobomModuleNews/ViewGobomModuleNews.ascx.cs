@@ -77,7 +77,8 @@ namespace GobomDNN.Modules.GobomModuleNews
                 int tabNewsID = NewsConst.getInstance.GetTagNewsIDFromTabID(currentTabID);
 
                 var data = from d in dataContext.gobom_News
-                           where d.ID == tabNewsID
+                           where d.IDTag == tabNewsID
+                           orderby d.ID descending
                            select d;
                 DataList1.DataSource = data;
                 DataList1.DataBind();

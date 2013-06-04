@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" Inherits="GobomDNN.Modules.GobomModuleNews.ViewGobomModuleNews"
     AutoEventWireup="true" CodeBehind="ViewGobomModuleNews.ascx.cs" %>
-<asp:DataList ID="DataList1" RepeatDirection= "Horizontal" runat="Server">
+<asp:DataList ID="DataList1" RepeatDirection= "Vertical" runat="Server">
     <ItemTemplate>
         <h1><p><%# DataBinder.Eval(Container.DataItem, "Title") %></p></h1>
         <p>Ngày đăng: <%# DataBinder.Eval(Container.DataItem, "DateCreate")%></p>

@@ -8,7 +8,8 @@
             <a href="./tabid/89/NewsID/<%# DataBinder.Eval(Container.DataItem, "ID") %>/Default.aspx"><h3><%# DataBinder.Eval(Container.DataItem, "Title") %></h3></a>
             <div>
                 <div style="width:20%; float:left"><img src="<%# DataBinder.Eval(Container.DataItem, "ImageURL") %>" height="100" width="100"></div>
-                <div style="text-align:justify; width:80%; float:right"><%# DataBinder.Eval(Container.DataItem, "Contents").ToString().Substring(0,400) + "..." %></div>
+                <div style="text-align:justify; width:80%; float:right"><%# DataBinder.Eval(Container.DataItem, "Contents").ToString().Substring(0, 400) + "..."%></div>
+    
             </div>
     </ItemTemplate>
 </asp:DataList>

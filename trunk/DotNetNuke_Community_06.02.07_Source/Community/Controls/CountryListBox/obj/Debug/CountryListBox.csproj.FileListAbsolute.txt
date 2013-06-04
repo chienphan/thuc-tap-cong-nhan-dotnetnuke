@@ -4,3 +4,9 @@ D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Website\bin\CountryListBox.xm
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Controls\CountryListBox\obj\Debug\ResolveAssemblyReference.cache
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Controls\CountryListBox\obj\Debug\CountryListBox.dll
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\Controls\CountryListBox\obj\Debug\CountryListBox.pdb
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Website\bin\CountryListBox.dll
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Website\bin\CountryListBox.pdb
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Website\bin\CountryListBox.xml
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\Controls\CountryListBox\obj\Debug\ResolveAssemblyReference.cache
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\Controls\CountryListBox\obj\Debug\CountryListBox.dll
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\Controls\CountryListBox\obj\Debug\CountryListBox.pdb

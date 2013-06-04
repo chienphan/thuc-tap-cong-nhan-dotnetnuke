@@ -4,3 +4,9 @@ D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web.Clie
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web.Client\obj\Debug\ResolveAssemblyReference.cache
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web.Client\obj\Debug\DotNetNuke.Web.Client.dll
 D:\DotnetNuke\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web.Client\obj\Debug\DotNetNuke.Web.Client.pdb
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web.Client\bin\DotNetNuke.Web.Client.dll
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web.Client\bin\DotNetNuke.Web.Client.pdb
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web.Client\bin\ClientDependency.Core.dll
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web.Client\obj\Debug\ResolveAssemblyReference.cache
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web.Client\obj\Debug\DotNetNuke.Web.Client.dll
+d:\thuc-tap-cong-nhan-dotnetnuke\trunk\DotNetNuke_Community_06.02.07_Source\Community\DotNetNuke.Web.Client\obj\Debug\DotNetNuke.Web.Client.pdb
