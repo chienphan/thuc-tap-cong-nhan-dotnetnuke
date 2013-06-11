@@ -85,7 +85,7 @@ namespace DNN.Modules.DepartmentsPage
                 ((DotNetNuke.UI.UserControls.TextEditor)(txtContent)).HtmlEncode = false;
                 ((DotNetNuke.UI.UserControls.TextEditor)(txtContent)).Mode = "BASIC";
                 ((DotNetNuke.UI.UserControls.TextEditor)(txtContent)).TextRenderMode = "HTML";
-                //((DotNetNuke.UI.UserControls.TextEditor)(txtContent)).Text = item.Contents;
+                ((DotNetNuke.UI.UserControls.TextEditor)(txtContent)).Text = item.Contents;
             }
         }
 
